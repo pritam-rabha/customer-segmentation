@@ -164,7 +164,11 @@ installed, the suite also builds every figure and runs `app.py` headlessly with 
 - Silhouette is estimated on a 5,000-row sample for large datasets.
 - At least two numeric features are required; categorical columns can be added on top of them.
 - Segment names come from transparent rules, not a learned model; review them before acting.
-- Recommended actions are starting hypotheses. Validate with a holdout group before spending budget.
+- Recommended actions are starting hypotheses. Validate with a holdout group before spending budget.    
+
+## Copyright
+
+© 2026 Pritam Rabha. All rights reserved.
 
 ## Licence
 

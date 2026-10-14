@@ -459,3 +459,15 @@ with tab_export:
         st.download_button("Download business insights (Markdown)", report.encode("utf-8"),
                            "segment_insights.md", "text/markdown")
         st.caption("The segmented CSV contains the cleaned customer table plus segment_id and segment name.")
+
+# ---------------------------------------------------------------------
+# Copyright
+# ---------------------------------------------------------------------
+st.markdown(
+    """
+    <div style="text-align: center; padding: 20px 0 10px 0; color: #808080; font-size: 13px;">
+        © 2026 <strong>Pritam Rabha</strong>. All rights reserved.
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
