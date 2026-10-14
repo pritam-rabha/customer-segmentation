@@ -1,0 +1,89 @@
+/* Customer Segmentation dashboard theme.
+   Palette: ink #1B2430, slate #5B6675, line #DDE2E9, canvas #F4F6F9, panel #FFFFFF, indigo #2F4B9A, marigold #D08C2F */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+:root { --ink:#1B2430; --slate:#5B6675; --line:#DDE2E9; --canvas:#F4F6F9; --panel:#FFFFFF; --indigo:#2F4B9A; --marigold:#D08C2F; }
+
+.stApp { background: var(--canvas); }
+.stApp, .stApp p, .stApp li, .stApp label, .stApp h1, .stApp h2, .stApp h3, .stApp h4, .stApp button,
+.stApp [data-testid="stMetricValue"], .stApp [data-testid="stMetricLabel"], .stApp .stTabs [data-baseweb="tab"],
+.stApp [data-testid="stCaptionContainer"], .stApp input, .stApp textarea {
+    font-family: 'IBM Plex Sans', 'Segoe UI', system-ui, -apple-system, 'Noto Sans', sans-serif;
+    font-variant-numeric: tabular-nums;
+}
+
+/* chrome we do not need */
+#MainMenu, footer, [data-testid="stToolbar"], [data-testid="stDecoration"] { display: none !important; }
+header[data-testid="stHeader"] { background: transparent; }
+
+/* layout */
+.block-container { max-width: 1400px; padding: 1.6rem 2.2rem 4rem; }
+h2, h3, h4 { color: var(--ink); font-weight: 600; letter-spacing: -0.01em; }
+h3 { font-size: 1.15rem; margin-top: 1.6rem; }
+h4 { font-size: 1.02rem; }
+.stApp p, .stApp li { color: var(--ink); line-height: 1.55; }
+[data-testid="stCaptionContainer"] { color: var(--slate); }
+
+/* app header */
+.app-header { display: flex; justify-content: space-between; align-items: flex-end; gap: 1.5rem; flex-wrap: wrap;
+              padding-bottom: 1.1rem; border-bottom: 1px solid var(--line); margin-bottom: 1.2rem; }
+.app-title { font-size: 1.7rem; font-weight: 700; letter-spacing: -0.02em; color: var(--ink); line-height: 1.15; margin: 0; }
+.app-sub { color: var(--slate); font-size: 0.93rem; margin-top: 0.3rem; }
+.chips { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.chip { border: 1px solid var(--line); background: var(--panel); border-radius: 6px; padding: 0.28rem 0.7rem;
+        font-size: 0.8rem; color: var(--ink); }
+.chip b { font-weight: 600; color: var(--slate); margin-right: 0.35rem; }
+
+/* sidebar */
+[data-testid="stSidebar"] { background: var(--panel); border-right: 1px solid var(--line); }
+[data-testid="stSidebar"] .block-container, [data-testid="stSidebarContent"] { padding-top: 1.2rem; }
+.side-label { font-size: 0.78rem; font-weight: 600; color: var(--indigo); letter-spacing: 0.02em;
+              border-bottom: 1px solid var(--line); padding-bottom: 0.35rem; margin: 1.3rem 0 0.7rem; }
+.side-label:first-child { margin-top: 0; }
+
+/* KPI tiles */
+[data-testid="stMetric"] { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 0.85rem 1rem; }
+[data-testid="stMetricLabel"] p { color: var(--slate); font-size: 0.82rem; font-weight: 500; }
+[data-testid="stMetricValue"] { color: var(--ink); font-weight: 600; font-size: 1.55rem; }
+
+/* tabs */
+.stTabs [data-baseweb="tab-list"] { gap: 0.25rem; border-bottom: 1px solid var(--line); }
+.stTabs [data-baseweb="tab"] { padding: 0.65rem 1rem; font-weight: 500; color: var(--slate); }
+.stTabs [aria-selected="true"] { color: var(--indigo); }
+.stTabs [data-baseweb="tab-highlight"] { background-color: var(--indigo); }
+.stTabs [data-baseweb="tab-panel"] { padding-top: 1.2rem; }
+
+/* charts and tables sit on white panels */
+div[data-testid="stPlotlyChart"], div[data-testid="stDataFrame"] {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 0.4rem 0.4rem 0.2rem;
+}
+div[data-testid="stDataFrame"] { padding: 0; overflow: hidden; }
+
+/* segment playbook */
+.seg-head { display: flex; align-items: center; gap: 0.7rem; flex-wrap: wrap; margin: 1.6rem 0 0.2rem; }
+.seg-swatch { width: 12px; height: 28px; border-radius: 3px; flex: none; }
+.seg-name { font-size: 1.1rem; font-weight: 600; color: var(--ink); }
+.seg-meta { font-size: 0.85rem; color: var(--slate); }
+.seg-label { font-size: 0.8rem; font-weight: 600; color: var(--slate); margin: 0.9rem 0 0.2rem; }
+.kpi-line { margin-top: 0.8rem; padding: 0.55rem 0.8rem; background: var(--panel); border: 1px solid var(--line);
+            border-left: 3px solid var(--marigold); border-radius: 4px; font-size: 0.9rem; }
+
+/* recommendation banner on the parameter tab */
+.callout { background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--marigold);
+           border-radius: 4px; padding: 0.7rem 1rem; margin-bottom: 1rem; font-size: 0.93rem; }
+
+/* inputs */
+[data-testid="stSidebar"] label p { font-size: 0.86rem; color: var(--ink); font-weight: 500; }
+.stDownloadButton button { border: 1px solid var(--indigo); color: var(--indigo); background: var(--panel); border-radius: 6px; font-weight: 500; }
+.stDownloadButton button:hover { background: var(--indigo); color: #fff; border-color: var(--indigo); }
+.stDownloadButton button:focus-visible, .stTabs [data-baseweb="tab"]:focus-visible { outline: 2px solid var(--marigold); outline-offset: 2px; }
+
+/* small screens */
+@media (max-width: 768px) {
+    .block-container { padding: 1rem 0.8rem 3rem; }
+    .app-title { font-size: 1.35rem; }
+    .app-header { align-items: flex-start; }
+    .stTabs [data-baseweb="tab"] { padding: 0.55rem 0.7rem; font-size: 0.85rem; }
+    [data-testid="stMetricValue"] { font-size: 1.25rem; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }

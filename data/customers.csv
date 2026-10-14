@@ -1,0 +1,1001 @@
+customer_id,customer_name,gender,age,city,state,city_tier,annual_income_lakh,spending_score,tenure_months,orders_per_year,avg_order_value_inr,days_since_last_order,online_share_pct,preferred_payment,top_category
+IN00001,Rekha Singh,Female,39.0,Mumbai,Maharashtra,Tier 1,10.5,57,,22,1100.0,44,46.3,UPI,Beauty & Personal Care
+IN00002,Nikhil Kulkarni,Male,30.0,Chandigarh,Chandigarh,Tier 2,4.2,77,28.0,30,540.0,30,64.2,UPI,Beauty & Personal Care
+IN00003,Rekha Kalita,Female,37.0,Surat,Gujarat,Tier 2,5.8,19,61.0,5,790.0,147,47.3,Cash on delivery,Beauty & Personal Care
+IN00004,Swati Malhotra,Female,49.0,Kochi,Kerala,Tier 2,9.2,39,41.0,23,1120.0,44,56.6,Credit/Debit card,Electronics
+IN00005,Kavya Bora,Female,32.0,Jaipur,Rajasthan,Tier 2,26.1,92,50.0,42,2360.0,1,56.2,Credit/Debit card,Electronics
+IN00006,Sunita Shah,Female,40.0,Dehradun,Uttarakhand,Tier 3,,15,46.0,5,850.0,148,38.0,Cash on delivery,Fashion
+IN00007,Rahul Menon,Male,37.0,Siliguri,West Bengal,Tier 3,8.5,52,27.0,19,1400.0,1,48.5,Credit/Debit card,Fashion
+IN00008,Pooja Das,Female,,Indore,Madhya Pradesh,Tier 2,9.8,24,15.0,8,960.0,31,22.1,Credit/Debit card,Grocery
+IN00009,Mohit Pandey,Male,45.0,Mumbai,Maharashtra,Tier 1,16.1,91,58.0,30,2180.0,6,48.8,UPI,Beauty & Personal Care
+IN00010,Shreya Kalita,Female,19.0,Indore,Madhya Pradesh,Tier 2,4.6,88,14.0,38,620.0,8,66.4,Credit/Debit card,Electronics
+IN00011,Pallavi Nair,Female,26.0,Dehradun,Uttarakhand,Tier 3,7.3,63,27.0,31,260.0,23,65.0,UPI,Home & Kitchen
+IN00012,Isha Mishra,Female,47.0,Jabalpur,Madhya Pradesh,Tier 3,6.5,27,38.0,5,930.0,162,47.0,Credit/Debit card,Electronics
+IN00013,Mohit Kalita,Male,43.0,Sagar,Madhya Pradesh,Tier 3,7.9,44,59.0,16,1460.0,43,83.9,Cash on delivery,Beauty & Personal Care
+IN00014,Komal Desai,Female,40.0,Guwahati,Assam,Tier 2,9.6,61,15.0,26,1130.0,29,68.1,UPI,Electronics
+IN00015,Rekha Yadav,Female,26.0,Chandigarh,Chandigarh,Tier 2,1.6,85,27.0,29,580.0,12,62.0,UPI,Electronics
+IN00016,Karan Gupta,Male,39.0,Siliguri,West Bengal,Tier 3,17.2,25,27.0,8,4280.0,104,48.3,UPI,Beauty & Personal Care
+IN00017,Priya Mishra,Female,31.0,Ujjain,Madhya Pradesh,Tier 3,9.5,49,27.0,11,1340.0,36,44.0,UPI,Home & Kitchen
+IN00018,Sanjay Menon,Male,38.0,Bengaluru,Karnataka,Tier 1,16.4,89,26.0,56,2800.0,7,73.8,Credit/Debit card,Grocery
+IN00019,Anjali Kalita,Female,41.0,Mysuru,Karnataka,Tier 3,10.5,51,32.0,15,1780.0,46,44.7,Credit/Debit card,Fashion
+IN00020,Sunita Mehta,Female,51.0,Guwahati,Assam,Tier 2,7.5,17,31.0,22,1240.0,36,56.5,Credit/Debit card,Home & Kitchen
+IN00021,Rohan Ghosh,Male,30.0,Dehradun,Uttarakhand,Tier 3,10.8,46,26.0,18,1620.0,58,29.7,Cash on delivery,Grocery
+IN00022,Aditi Reddy,Female,31.0,Chandigarh,Chandigarh,Tier 2,2.6,70,29.0,25,650.0,2,87.5,UPI,Fashion
+IN00023,Kavya Mehta,Female,60.0,Jabalpur,Madhya Pradesh,Tier 3,4.9,29,36.0,5,550.0,94,35.0,Credit/Debit card,Fashion
+IN00024,Sneha Chauhan,Female,65.0,Gwalior,Madhya Pradesh,Tier 3,4.7,21,14.0,7,380.0,141,35.9,Cash on delivery,Beauty & Personal Care
+IN00025,Sunita Malhotra,Female,37.0,Bhopal,Madhya Pradesh,Tier 2,6.7,54,26.0,27,670.0,52,55.8,UPI,Fashion
+IN00026,Siddharth Menon,Male,51.0,Ahmedabad,Gujarat,Tier 1,29.4,36,35.0,2,,83,52.3,Credit/Debit card,Beauty & Personal Care
+IN00027,Isha Verma,Female,37.0,Udaipur,Rajasthan,Tier 3,1.5,61,21.0,41,680.0,15,81.5,Wallet,Fashion
+IN00028,Rohan Desai,Male,36.0,Delhi,Delhi,Tier 1,12.8,66,48.0,33,2280.0,5,,Credit/Debit card,Electronics
+IN00029,Riya Kapoor,Female,37.0,Hyderabad,Telangana,Tier 1,9.4,87,45.0,37,2250.0,3,58.4,UPI,Home & Kitchen
+IN00030,Divya Chatterjee,Female,27.0,Udaipur,Rajasthan,Tier 3,7.6,55,25.0,11,1140.0,33,26.0,Credit/Debit card,Home & Kitchen
+IN00031,Shreya Chatterjee,Female,50.0,Hyderabad,Telangana,Tier 1,,61,15.0,10,,32,48.7,Credit/Debit card,Home & Kitchen
+IN00032,Rahul Shah,Male,67.0,Pune,Maharashtra,Tier 1,6.6,14,60.0,4,770.0,175,3.3,Cash on delivery,Home & Kitchen
+IN00033,Ankit Iyer,Male,28.0,Jabalpur,Madhya Pradesh,Tier 3,3.0,67,49.0,24,730.0,31,79.0,UPI,Fashion
+IN00034,Rahul Mehta,,23.0,Udaipur,Rajasthan,Tier 3,3.5,78,29.0,26,700.0,23,46.9,Cash on delivery,Fashion
+IN00035,Pooja Ghosh,Female,31.0,Lucknow,Uttar Pradesh,Tier 2,,70,23.0,33,600.0,38,100.0,Wallet,Fashion
+IN00036,Sneha Thakur,Female,46.0,Delhi,Delhi,Tier 1,22.0,17,37.0,4,3790.0,59,46.5,Wallet,Home & Kitchen
+IN00037,Pranav Bora,Male,40.0,Hyderabad,Telangana,Tier 1,17.5,84,53.0,27,2450.0,10,60.3,Credit/Debit card,Fashion
+IN00038,Swati Ghosh,Female,22.0,Ahmedabad,Gujarat,Tier 1,3.7,82,12.0,19,710.0,20,67.3,Cash on delivery,Fashion
+IN00039,Abhishek Pillai,Male,42.0,Indore,Madhya Pradesh,Tier 2,18.9,51,20.0,12,2700.0,64,36.7,UPI,Home & Kitchen
+IN00040,Divya Malhotra,Female,,Nagpur,Maharashtra,Tier 2,6.3,48,54.0,21,1970.0,1,29.0,UPI,Grocery
+IN00041,Sneha Chatterjee,Female,20.0,Dehradun,Uttarakhand,Tier 3,1.5,60,19.0,38,850.0,42,100.0,UPI,Fashion
+IN00042,Sneha Singh,,32.0,Chandigarh,Chandigarh,Tier 2,11.5,48,25.0,9,610.0,30,29.9,Credit/Debit card,Electronics
+IN00043,Lakshmi Malhotra,Female,42.0,Jabalpur,Madhya Pradesh,Tier 3,6.6,35,35.0,14,1270.0,15,,Credit/Debit card,Fashion
+IN00044,Rohan Tiwari,Male,40.0,Delhi,Delhi,Tier 1,22.9,29,39.0,6,2830.0,50,48.5,Cash on delivery,Electronics
+IN00045,Arjun Verma,Male,29.0,Sagar,Madhya Pradesh,Tier 3,7.3,48,24.0,15,1810.0,38,51.1,UPI,Beauty & Personal Care
+IN00046,Abhishek Nair,Male,31.0,Patna,Bihar,Tier 2,12.1,36,24.0,20,1030.0,37,53.7,UPI,Home & Kitchen
+IN00047,Rahul Desai,Male,18.0,Indore,Madhya Pradesh,Tier 2,3.2,57,33.0,34,630.0,20,60.6,UPI,Beauty & Personal Care
+IN00048,Swati Bora,Female,71.0,Bengaluru,Karnataka,Tier 1,25.4,29,31.0,6,5310.0,45,42.6,UPI,Home & Kitchen
+IN00049,Abhishek Gupta,Male,26.0,Mysuru,Karnataka,Tier 3,7.6,30,23.0,18,1230.0,45,13.8,UPI,Home & Kitchen
+IN00050,Tanvi Das,Female,43.0,Dehradun,Uttarakhand,Tier 3,13.5,66,48.0,48,,2,85.9,Credit/Debit card,Electronics
+IN00051,Deepak Mehta,Male,45.0,Pune,Maharashtra,Tier 1,21.5,31,15.0,8,3460.0,44,28.3,Credit/Debit card,Electronics
+IN00052,Isha Mehta,Female,30.0,Kochi,Kerala,Tier 2,17.6,80,28.0,44,1730.0,15,56.7,Credit/Debit card,Fashion
+IN00053,Pranav Pillai,Male,30.0,Siliguri,West Bengal,Tier 3,8.5,38,9.0,17,1420.0,56,39.3,Wallet,Home & Kitchen
+IN00054,Arjun Agarwal,Male,55.0,Lucknow,Uttar Pradesh,Tier 2,6.5,67,26.0,13,1360.0,35,58.3,UPI,Home & Kitchen
+IN00055,Mohit Malhotra,Male,34.0,Delhi,Delhi,Tier 1,11.1,47,23.0,21,1850.0,69,53.5,UPI,Fashion
+IN00056,Abhishek Sharma,Male,,Bengaluru,Karnataka,Tier 1,11.1,52,42.0,88,1460.0,38,11.2,UPI,Grocery
+IN00057,Vikram Chauhan,Male,18.0,Sagar,Madhya Pradesh,Tier 3,7.2,92,35.0,35,710.0,18,,UPI,Fashion
+IN00058,Ankit Mehta,Male,33.0,Delhi,Delhi,Tier 1,10.8,44,14.0,18,1760.0,15,53.7,UPI,Home & Kitchen
+IN00059,Rahul Pillai,Male,30.0,Kolkata,West Bengal,Tier 1,10.8,83,30.0,38,2780.0,12,25.4,Credit/Debit card,Beauty & Personal Care
+IN00060,Kavya Tiwari,Female,47.0,Pune,Maharashtra,Tier 1,14.6,85,48.0,27,1450.0,16,69.6,Credit/Debit card,Home & Kitchen
+IN00061,Aarav Rao,Male,49.0,Hyderabad,Telangana,Tier 1,10.3,30,,15,,27,56.6,UPI,Fashion
+IN00062,Swati Saxena,Female,21.0,Siliguri,West Bengal,Tier 3,5.7,87,33.0,33,610.0,5,51.6,UPI,Fashion
+IN00063,Sanjay Sharma,Male,31.0,Dehradun,Uttarakhand,Tier 3,9.2,60,17.0,9,1040.0,29,73.1,Credit/Debit card,Fashion
+IN00064,Sanjay Mehta,Male,41.0,Hyderabad,Telangana,Tier 1,7.7,26,45.0,12,1220.0,44,38.2,UPI,Grocery
+IN00065,Lakshmi Shah,Female,42.0,Guwahati,Assam,Tier 2,,44,18.0,14,890.0,21,9.6,UPI,Beauty & Personal Care
+IN00066,Amit Joshi,Male,64.0,Jaipur,Rajasthan,Tier 2,12.2,49,35.0,12,1470.0,31,32.1,UPI,Home & Kitchen
+IN00067,Lakshmi Ghosh,Female,47.0,Kochi,Kerala,Tier 2,10.9,53,40.0,15,1160.0,33,30.3,UPI,Fashion
+IN00068,Deepak Nair,Male,34.0,Lucknow,Uttar Pradesh,Tier 2,26.8,43,28.0,5,2980.0,55,,UPI,Fashion
+IN00069,Suresh Desai,Male,35.0,Bengaluru,Karnataka,Tier 1,18.7,82,62.0,37,2510.0,16,51.5,Credit/Debit card,Grocery
+IN00070,Deepak Iyer,Male,19.0,Lucknow,Uttar Pradesh,Tier 2,5.3,68,27.0,29,520.0,29,82.3,Wallet,Grocery
+IN00071,Sandeep Iyer,Male,41.0,Chandigarh,Chandigarh,Tier 2,21.1,33,47.0,4,4740.0,44,34.7,Credit/Debit card,Beauty & Personal Care
+IN00072,Divya Chauhan,Female,28.0,Bhopal,Madhya Pradesh,Tier 2,3.2,78,9.0,24,750.0,13,64.8,Cash on delivery,Electronics
+IN00073,Shreya Tiwari,Female,58.0,Nagpur,Maharashtra,Tier 2,7.1,23,35.0,4,310.0,175,25.2,UPI,Grocery
+IN00074,Nikhil Thakur,Male,47.0,Mumbai,Maharashtra,Tier 1,27.1,12,50.0,8,3830.0,31,51.6,Credit/Debit card,Home & Kitchen
+IN00075,Anjali Pandey,Female,27.0,Delhi,Delhi,Tier 1,19.6,83,17.0,28,3190.0,17,62.6,UPI,Fashion
+IN00076,Pallavi Sharma,,52.0,Mumbai,Maharashtra,Tier 1,26.2,39,39.0,5,4060.0,75,3.7,Credit/Debit card,Electronics
+IN00077,Riya Verma,Female,52.0,Bhopal,Madhya Pradesh,Tier 2,23.7,23,16.0,6,3490.0,76,,UPI,Home & Kitchen
+IN00078,Sneha Gupta,Female,35.0,Mumbai,Maharashtra,Tier 1,7.3,42,26.0,24,1060.0,28,63.3,UPI,Beauty & Personal Care
+IN00079,Deepak Menon,Male,48.0,Patna,Bihar,Tier 2,9.1,30,11.0,21,1470.0,47,1.1,Credit/Debit card,Fashion
+IN00080,Tanvi Nair,Female,62.0,Indore,Madhya Pradesh,Tier 2,8.2,41,12.0,14,900.0,45,41.9,Credit/Debit card,Electronics
+IN00081,Komal Mehta,Female,25.0,Chandigarh,Chandigarh,Tier 2,6.2,42,38.0,9,1570.0,52,75.7,Credit/Debit card,Beauty & Personal Care
+IN00082,Sandeep Pandey,Male,19.0,Surat,Gujarat,Tier 2,2.2,88,24.0,29,540.0,12,65.1,UPI,Grocery
+IN00083,Nikhil Thakur,Male,33.0,Chennai,Tamil Nadu,Tier 1,9.4,41,13.0,22,1130.0,30,50.1,UPI,Home & Kitchen
+IN00084,Neha Rao,Female,42.0,Kochi,Kerala,Tier 2,19.9,93,53.0,46,2640.0,9,60.7,UPI,Fashion
+IN00085,Sandeep Sharma,Male,42.0,Mumbai,Maharashtra,Tier 1,12.1,91,65.0,42,2490.0,29,57.9,UPI,Grocery
+IN00086,Ananya Chauhan,Female,26.0,Bhopal,Madhya Pradesh,Tier 2,21.8,54,46.0,37,2120.0,14,73.9,Credit/Debit card,Electronics
+IN00087,Arjun Malhotra,Male,,Mysuru,Karnataka,Tier 3,8.0,61,33.0,15,1710.0,53,66.1,Cash on delivery,Beauty & Personal Care
+IN00088,Priya Nair,Female,18.0,Chandigarh,Chandigarh,Tier 2,2.9,82,,24,730.0,31,61.5,UPI,Fashion
+IN00089,Pallavi Kapoor,Female,40.0,Jaipur,Rajasthan,Tier 2,14.4,77,56.0,19,2420.0,1,39.0,UPI,Beauty & Personal Care
+IN00090,Aditi Sharma,Female,,Jabalpur,Madhya Pradesh,Tier 3,4.9,79,7.0,33,660.0,30,87.3,Wallet,Grocery
+IN00091,Aarav Chatterjee,Male,44.0,Chandigarh,Chandigarh,Tier 2,20.8,79,38.0,29,2270.0,4,,UPI,Home & Kitchen
+IN00092,Sunita Tiwari,Female,37.0,Mumbai,Maharashtra,Tier 1,6.6,37,,6,1160.0,15,20.4,Credit/Debit card,Home & Kitchen
+IN00093,Sunita Sharma,Female,23.0,Gwalior,Madhya Pradesh,Tier 3,6.6,89,22.0,35,590.0,29,86.5,UPI,Grocery
+IN00094,Harsh Yadav,,22.0,Nagpur,Maharashtra,Tier 2,6.6,71,25.0,39,580.0,14,99.7,Cash on delivery,Grocery
+IN00095,Komal Rao,Female,53.0,Bengaluru,Karnataka,Tier 1,21.8,27,36.0,6,3350.0,113,62.0,Credit/Debit card,Electronics
+IN00096,Rajesh Menon,Male,38.0,Guwahati,Assam,Tier 2,5.3,53,33.0,19,1520.0,14,21.2,UPI,Home & Kitchen
+IN00097,Pallavi Bora,Female,35.0,Udaipur,Rajasthan,Tier 3,6.1,78,28.0,32,550.0,17,,UPI,Grocery
+IN00098,Isha Pandey,Female,41.0,Surat,Gujarat,Tier 2,18.0,64,46.0,41,2010.0,1,,UPI,Electronics
+IN00099,Divya Iyer,Female,43.0,Delhi,Delhi,Tier 1,11.8,81,25.0,44,2260.0,12,52.8,UPI,Home & Kitchen
+IN00100,Komal Gupta,Female,52.0,Lucknow,Uttar Pradesh,Tier 2,7.5,19,48.0,6,670.0,217,26.6,UPI,Beauty & Personal Care
+IN00101,Anjali Jain,Female,61.0,Jabalpur,Madhya Pradesh,Tier 3,5.0,19,,3,620.0,248,48.4,UPI,Fashion
+IN00102,Siddharth Pandey,Male,28.0,Jaipur,Rajasthan,Tier 2,5.1,52,34.0,20,1360.0,17,75.9,UPI,Electronics
+IN00103,Abhishek Menon,Male,41.0,Bhopal,Madhya Pradesh,Tier 2,24.8,14,40.0,10,3460.0,53,40.4,Wallet,Electronics
+IN00104,Kavya Menon,Female,42.0,Mumbai,Maharashtra,Tier 1,5.9,17,21.0,1,870.0,233,22.4,UPI,Beauty & Personal Care
+IN00105,Riya Pandey,Female,55.0,Mumbai,Maharashtra,Tier 1,8.1,61,,3,1560.0,35,51.8,Cash on delivery,Electronics
+IN00106,Amit Bora,Male,27.0,Jabalpur,Madhya Pradesh,Tier 3,8.8,49,16.0,11,1340.0,53,51.9,UPI,Beauty & Personal Care
+IN00107,Nisha Ghosh,Female,22.0,Chandigarh,Chandigarh,Tier 2,3.7,78,24.0,36,320.0,17,80.6,Cash on delivery,Electronics
+IN00108,Siddharth Desai,Male,50.0,Siliguri,West Bengal,Tier 3,26.8,31,39.0,18,2490.0,77,48.4,Credit/Debit card,Electronics
+IN00109,Pranav Chatterjee,Male,27.0,Sagar,Madhya Pradesh,Tier 3,16.6,91,15.0,44,2500.0,11,37.9,Credit/Debit card,Beauty & Personal Care
+IN00110,Neha Saxena,Female,35.0,Siliguri,West Bengal,Tier 3,6.7,28,26.0,5,,206,34.0,Credit/Debit card,Fashion
+IN00111,Amit Rao,Male,31.0,Udaipur,Rajasthan,Tier 3,5.0,75,25.0,28,730.0,26,62.5,Cash on delivery,Electronics
+IN00112,Gaurav Kapoor,Male,39.0,Bhopal,Madhya Pradesh,Tier 2,34.3,20,39.0,7,3530.0,78,,Credit/Debit card,Fashion
+IN00113,Mohit Jain,Male,41.0,Dehradun,Uttarakhand,Tier 3,28.7,27,34.0,10,3840.0,64,30.4,Credit/Debit card,Electronics
+IN00114,Deepak Reddy,Male,39.0,Delhi,Delhi,Tier 1,6.8,59,37.0,14,720.0,26,29.9,UPI,Beauty & Personal Care
+IN00115,Pallavi Agarwal,Female,41.0,Kochi,Kerala,Tier 2,19.6,70,61.0,25,2020.0,8,72.0,UPI,Electronics
+IN00116,Nikhil Chauhan,Male,57.0,Hyderabad,Telangana,Tier 1,4.7,23,,4,260.0,158,33.4,Cash on delivery,Grocery
+IN00117,Tanvi Chauhan,Female,51.0,Jabalpur,Madhya Pradesh,Tier 3,10.6,48,20.0,19,1650.0,28,51.8,Credit/Debit card,Grocery
+IN00118,Sneha Reddy,Female,41.0,Mysuru,Karnataka,Tier 3,8.8,55,1.0,12,1270.0,32,29.4,UPI,Grocery
+IN00119,Rajesh Malhotra,Male,26.0,Chandigarh,Chandigarh,Tier 2,4.4,74,11.0,27,700.0,34,74.0,UPI,Fashion
+IN00120,Sneha Kapoor,Female,31.0,Patna,Bihar,Tier 2,10.4,33,36.0,11,1580.0,44,71.4,Wallet,Electronics
+IN00121,Abhishek Bora,Male,28.0,Nagpur,Maharashtra,Tier 2,8.5,21,,19,1540.0,28,99.1,UPI,Electronics
+IN00122,Abhishek Reddy,Male,39.0,Kolkata,West Bengal,Tier 1,7.0,54,34.0,13,1030.0,27,58.7,UPI,Beauty & Personal Care
+IN00123,Suresh Kalita,Male,36.0,Jaipur,Rajasthan,Tier 2,20.8,83,34.0,38,2000.0,28,78.8,UPI,Grocery
+IN00124,Vikram Singh,Male,26.0,Udaipur,Rajasthan,Tier 3,4.6,79,19.0,33,820.0,22,71.8,UPI,Grocery
+IN00125,Karan Joshi,Male,34.0,Bhopal,Madhya Pradesh,Tier 2,17.4,72,42.0,43,1720.0,16,61.3,Credit/Debit card,Beauty & Personal Care
+IN00126,Amit Kulkarni,Male,21.0,Siliguri,West Bengal,Tier 3,8.7,78,6.0,28,540.0,38,83.6,Cash on delivery,Fashion
+IN00127,Manoj Chatterjee,Male,26.0,Kochi,Kerala,Tier 2,1.8,68,2.0,32,1030.0,27,90.2,UPI,Fashion
+IN00128,Karan Rao,Male,45.0,Indore,Madhya Pradesh,Tier 2,24.9,74,29.0,24,2600.0,18,32.6,UPI,Fashion
+IN00129,Suresh Thakur,Male,50.0,Sagar,Madhya Pradesh,Tier 3,22.5,93,28.0,36,2670.0,5,72.6,UPI,Beauty & Personal Care
+IN00130,Isha Pillai,Female,33.0,Sagar,Madhya Pradesh,Tier 3,9.3,55,45.0,18,980.0,15,38.6,UPI,Fashion
+IN00131,Meera Chauhan,Female,52.0,Pune,Maharashtra,Tier 1,16.8,75,46.0,38,2520.0,4,37.1,UPI,Fashion
+IN00132,Priya Chatterjee,,43.0,Indore,Madhya Pradesh,Tier 2,3.2,29,44.0,2,1320.0,137,47.4,UPI,Fashion
+IN00133,Divya Patel,Female,43.0,Bhopal,Madhya Pradesh,Tier 2,5.8,55,28.0,9,1530.0,26,4.4,UPI,Grocery
+IN00134,Pooja Kulkarni,Female,21.0,Guwahati,Assam,Tier 2,4.6,86,27.0,24,570.0,16,89.9,UPI,Grocery
+IN00135,Harsh Singh,Male,27.0,Kolkata,West Bengal,Tier 1,10.3,44,40.0,8,1190.0,53,19.7,Cash on delivery,Beauty & Personal Care
+IN00136,Arjun Kalita,Male,49.0,Patna,Bihar,Tier 2,21.4,84,38.0,34,2880.0,12,66.6,Credit/Debit card,Grocery
+IN00137,Karan Tiwari,Male,52.0,Bhopal,Madhya Pradesh,Tier 2,3.9,32,31.0,5,690.0,166,28.0,UPI,Beauty & Personal Care
+IN00138,Sanjay Agarwal,Male,27.0,Siliguri,West Bengal,Tier 3,7.2,68,13.0,25,,26,67.9,UPI,Fashion
+IN00139,Vikram Pandey,Male,49.0,Lucknow,Uttar Pradesh,Tier 2,6.7,66,30.0,19,1630.0,36,78.0,Cash on delivery,Grocery
+IN00140,Pranav Banerjee,Male,37.0,Nagpur,Maharashtra,Tier 2,26.7,63,53.0,23,2440.0,13,48.7,UPI,Home & Kitchen
+IN00141,Suresh Ghosh,Male,25.0,Bhopal,Madhya Pradesh,Tier 2,2.4,76,28.0,34,,35,90.0,UPI,Fashion
+IN00142,Shreya Yadav,Female,20.0,Gwalior,Madhya Pradesh,Tier 3,3.8,75,,35,300.0,38,77.5,Cash on delivery,Grocery
+IN00143,Harsh Das,Male,54.0,Mysuru,Karnataka,Tier 3,5.0,25,38.0,7,840.0,191,42.4,UPI,Beauty & Personal Care
+IN00144,Sneha Saxena,Female,42.0,Hyderabad,Telangana,Tier 1,11.3,45,47.0,16,1240.0,24,31.5,Wallet,Grocery
+IN00145,Sunita Rao,Female,32.0,Gwalior,Madhya Pradesh,Tier 3,4.0,82,14.0,24,960.0,30,74.1,UPI,Electronics
+IN00146,Tanvi Kulkarni,Female,39.0,Patna,Bihar,Tier 2,28.9,23,29.0,8,5080.0,89,48.2,UPI,Electronics
+IN00147,Nikhil Verma,Male,29.0,Gwalior,Madhya Pradesh,Tier 3,4.6,57,25.0,34,920.0,18,,UPI,Beauty & Personal Care
+IN00148,Rajesh Reddy,Male,23.0,Nagpur,Maharashtra,Tier 2,2.1,87,14.0,27,770.0,16,71.3,Wallet,Beauty & Personal Care
+IN00149,Kavya Desai,Female,27.0,Udaipur,Rajasthan,Tier 3,6.1,71,3.0,30,470.0,24,,UPI,Beauty & Personal Care
+IN00150,Amit Yadav,Male,41.0,Pune,Maharashtra,Tier 1,26.8,97,54.0,34,2600.0,1,44.6,Credit/Debit card,Grocery
+IN00151,Tanvi Tiwari,Female,43.0,Kochi,Kerala,Tier 2,8.2,55,15.0,20,1660.0,54,43.3,Credit/Debit card,Electronics
+IN00152,Meera Gupta,Female,55.0,Udaipur,Rajasthan,Tier 3,6.8,17,56.0,1,400.0,202,4.4,Cash on delivery,Grocery
+IN00153,Isha Pandey,Female,44.0,Udaipur,Rajasthan,Tier 3,12.5,85,52.0,34,2550.0,11,55.4,Cash on delivery,Electronics
+IN00154,Riya Kapoor,Female,,Patna,Bihar,Tier 2,11.7,57,28.0,12,1450.0,26,61.8,UPI,Fashion
+IN00155,Abhishek Pandey,Male,39.0,Hyderabad,Telangana,Tier 1,13.8,78,51.0,35,2350.0,12,59.3,Credit/Debit card,Grocery
+IN00156,Swati Bora,Female,37.0,Chennai,Tamil Nadu,Tier 1,6.2,69,,11,1400.0,56,76.7,UPI,Electronics
+IN00157,Sneha Thakur,Female,,Kochi,Kerala,Tier 2,39.4,43,23.0,7,3670.0,89,27.9,Credit/Debit card,Electronics
+IN00158,Tanvi Jain,Female,34.0,Ujjain,Madhya Pradesh,Tier 3,7.3,47,26.0,22,1170.0,56,46.4,UPI,Fashion
+IN00159,Sanjay Pillai,Male,36.0,Bengaluru,Karnataka,Tier 1,10.0,43,42.0,7,1380.0,36,42.7,Wallet,Fashion
+IN00160,Suresh Joshi,Male,39.0,Indore,Madhya Pradesh,Tier 2,11.9,34,23.0,21,1720.0,13,51.3,UPI,Fashion
+IN00161,Abhishek Yadav,Male,39.0,Kochi,Kerala,Tier 2,24.7,85,70.0,32,2130.0,10,52.3,UPI,Fashion
+IN00162,Sanjay Pandey,Male,62.0,Nagpur,Maharashtra,Tier 2,8.0,29,54.0,6,1000.0,193,5.8,Cash on delivery,Fashion
+IN00163,Arjun Mehta,Male,57.0,Delhi,Delhi,Tier 1,26.6,44,7.0,9,1730.0,78,30.9,UPI,Electronics
+IN00164,Riya Reddy,Female,45.0,Delhi,Delhi,Tier 1,13.2,67,33.0,33,3510.0,5,70.8,Credit/Debit card,Fashion
+IN00165,Sunita Tiwari,Female,40.0,Nagpur,Maharashtra,Tier 2,,67,53.0,22,1280.0,69,38.7,UPI,Electronics
+IN00166,Abhishek Iyer,Male,25.0,Mysuru,Karnataka,Tier 3,6.2,90,,39,1010.0,35,81.7,UPI,Electronics
+IN00167,Meera Nair,Female,33.0,Siliguri,West Bengal,Tier 3,9.1,55,53.0,19,1490.0,41,39.7,Credit/Debit card,Fashion
+IN00168,Priya Pandey,Female,21.0,Patna,Bihar,Tier 2,13.6,55,31.0,12,1320.0,30,57.4,Cash on delivery,Beauty & Personal Care
+IN00169,Lakshmi Gupta,Female,53.0,Mumbai,Maharashtra,Tier 1,26.4,26,34.0,10,3520.0,64,56.9,Credit/Debit card,Beauty & Personal Care
+IN00170,Nisha Verma,Female,61.0,Jabalpur,Madhya Pradesh,Tier 3,2.8,25,18.0,1,760.0,160,0.0,Cash on delivery,Electronics
+IN00171,Mohit Gupta,Male,56.0,Indore,Madhya Pradesh,Tier 2,27.5,27,,8,5790.0,61,54.6,UPI,Grocery
+IN00172,Meera Patel,Female,21.0,Nagpur,Maharashtra,Tier 2,,73,16.0,35,580.0,22,80.1,Cash on delivery,Fashion
+IN00173,Meera Chauhan,Female,47.0,Kolkata,West Bengal,Tier 1,19.0,23,37.0,8,4290.0,36,,UPI,Home & Kitchen
+IN00174,Ankit Menon,Male,55.0,Jabalpur,Madhya Pradesh,Tier 3,4.3,42,65.0,3,730.0,200,41.8,Wallet,Grocery
+IN00175,Abhishek Joshi,Male,38.0,Mumbai,Maharashtra,Tier 1,12.0,91,47.0,36,2170.0,8,55.3,Credit/Debit card,Electronics
+IN00176,Tanvi Chauhan,Female,32.0,Lucknow,Uttar Pradesh,Tier 2,15.8,77,64.0,39,2070.0,11,76.7,UPI,Grocery
+IN00177,Neha Thakur,Female,26.0,Chennai,Tamil Nadu,Tier 1,3.4,78,16.0,35,,23,,Wallet,Grocery
+IN00178,Komal Banerjee,Female,,Lucknow,Uttar Pradesh,Tier 2,4.8,23,54.0,8,,222,40.1,Wallet,Electronics
+IN00179,Aditi Chauhan,Female,54.0,Jabalpur,Madhya Pradesh,Tier 3,7.1,27,38.0,3,770.0,205,43.5,Cash on delivery,Fashion
+IN00180,Pooja Kulkarni,Female,35.0,Dehradun,Uttarakhand,Tier 3,8.3,84,35.0,11,1340.0,49,53.3,UPI,Fashion
+IN00181,Meera Joshi,Female,47.0,Pune,Maharashtra,Tier 1,4.4,23,22.0,4,960.0,164,19.8,Cash on delivery,Home & Kitchen
+IN00182,Siddharth Kulkarni,,51.0,Kochi,Kerala,Tier 2,4.6,20,56.0,6,690.0,127,21.5,Credit/Debit card,Grocery
+IN00183,Deepak Sharma,Male,22.0,Bengaluru,Karnataka,Tier 1,5.2,97,38.0,41,940.0,19,100.0,UPI,Grocery
+IN00184,Sandeep Chatterjee,Male,54.0,Jabalpur,Madhya Pradesh,Tier 3,21.8,36,14.0,6,2950.0,50,29.0,Credit/Debit card,Fashion
+IN00185,Gaurav Saxena,Male,45.0,Guwahati,Assam,Tier 2,11.7,54,42.0,14,1900.0,46,88.4,Credit/Debit card,Grocery
+IN00186,Vivaan Pillai,Male,42.0,Mysuru,Karnataka,Tier 3,6.6,36,14.0,9,1720.0,55,57.9,Credit/Debit card,Beauty & Personal Care
+IN00187,Rahul Sharma,Male,20.0,Ujjain,Madhya Pradesh,Tier 3,,75,6.0,26,780.0,15,93.7,Cash on delivery,Grocery
+IN00188,Arjun Malhotra,Male,35.0,Mumbai,Maharashtra,Tier 1,19.9,78,66.0,34,2620.0,13,66.2,Credit/Debit card,Electronics
+IN00189,Deepak Kalita,Male,53.0,Bengaluru,Karnataka,Tier 1,10.1,48,,10,1330.0,25,70.7,Cash on delivery,Fashion
+IN00190,Gaurav Singh,Male,31.0,Kochi,Kerala,Tier 2,21.5,23,38.0,5,,54,30.3,Credit/Debit card,Grocery
+IN00191,Vivaan Ghosh,Male,75.0,Bengaluru,Karnataka,Tier 1,2.7,19,47.0,1,1040.0,126,28.2,Cash on delivery,Beauty & Personal Care
+IN00192,Deepak Shah,Male,55.0,Udaipur,Rajasthan,Tier 3,27.2,22,55.0,10,3010.0,42,51.0,Credit/Debit card,Home & Kitchen
+IN00193,Shreya Patel,Female,43.0,Ahmedabad,Gujarat,Tier 1,17.5,76,28.0,82,2530.0,17,51.5,UPI,Fashion
+IN00194,Shreya Tiwari,Female,61.0,Dehradun,Uttarakhand,Tier 3,3.1,39,43.0,18,4830.0,40,30.7,UPI,Grocery
+IN00195,Neha Patel,Female,38.0,Chennai,Tamil Nadu,Tier 1,15.1,75,44.0,37,1700.0,21,49.0,UPI,Beauty & Personal Care
+IN00196,Riya Yadav,Female,41.0,Chennai,Tamil Nadu,Tier 1,15.0,86,67.0,23,,10,37.3,UPI,Electronics
+IN00197,Swati Reddy,Female,49.0,Hyderabad,Telangana,Tier 1,6.2,46,31.0,18,1050.0,17,59.5,UPI,Home & Kitchen
+IN00198,Tanvi Patel,Female,55.0,Bhopal,Madhya Pradesh,Tier 2,6.5,23,18.0,4,1030.0,134,51.7,Credit/Debit card,Grocery
+IN00199,Sneha Tiwari,Female,,Chennai,Tamil Nadu,Tier 1,23.1,35,31.0,9,2520.0,81,25.0,Wallet,Electronics
+IN00200,Suresh Kalita,Male,53.0,Chennai,Tamil Nadu,Tier 1,24.7,21,29.0,9,3320.0,100,45.4,UPI,Fashion
+IN00201,Meera Das,Female,55.0,Udaipur,Rajasthan,Tier 3,10.2,46,25.0,10,1240.0,45,37.0,UPI,Grocery
+IN00202,Shreya Shah,Female,58.0,Jaipur,Rajasthan,Tier 2,5.2,25,37.0,4,590.0,177,,Cash on delivery,Electronics
+IN00203,Ananya Pillai,Female,18.0,Nagpur,Maharashtra,Tier 2,4.4,90,23.0,24,1090.0,16,69.3,UPI,Fashion
+IN00204,Sneha Ghosh,Female,43.0,Chandigarh,Chandigarh,Tier 2,14.8,82,55.0,39,2350.0,8,66.4,UPI,Electronics
+IN00205,Abhishek Ghosh,Male,35.0,Ujjain,Madhya Pradesh,Tier 3,14.0,86,51.0,36,1840.0,16,56.7,UPI,Electronics
+IN00206,Nikhil Chatterjee,Male,50.0,Guwahati,Assam,Tier 2,29.4,26,34.0,9,3670.0,47,51.2,UPI,Electronics
+IN00207,Lakshmi Agarwal,Female,44.0,Mumbai,Maharashtra,Tier 1,28.3,80,45.0,36,2990.0,17,26.4,Credit/Debit card,Fashion
+IN00208,Gaurav Joshi,Male,49.0,Jabalpur,Madhya Pradesh,Tier 3,5.7,44,28.0,18,1410.0,35,57.1,Cash on delivery,Electronics
+IN00209,Lakshmi Ghosh,,41.0,Kochi,Kerala,Tier 2,19.3,85,43.0,43,2710.0,9,54.0,Cash on delivery,Home & Kitchen
+IN00210,Deepak Patel,Male,24.0,Surat,Gujarat,Tier 2,8.9,78,11.0,26,700.0,19,74.7,UPI,Fashion
+IN00211,Amit Reddy,Male,58.0,Guwahati,Assam,Tier 2,10.1,35,1.0,17,1600.0,39,62.4,Wallet,Home & Kitchen
+IN00212,Ankit Chauhan,Male,60.0,Bhopal,Madhya Pradesh,Tier 2,11.3,68,26.0,23,1560.0,33,50.9,Credit/Debit card,Home & Kitchen
+IN00213,Lakshmi Banerjee,Female,38.0,Delhi,Delhi,Tier 1,28.3,12,54.0,8,2100.0,77,38.7,Credit/Debit card,Electronics
+IN00214,Rohan Pandey,Male,51.0,Kochi,Kerala,Tier 2,7.7,53,19.0,18,910.0,31,93.3,UPI,Grocery
+IN00215,Rohan Chatterjee,Male,48.0,Mumbai,Maharashtra,Tier 1,6.6,48,,20,1640.0,22,75.7,UPI,Fashion
+IN00216,Vivaan Mishra,Male,39.0,Guwahati,Assam,Tier 2,7.8,58,40.0,17,1270.0,47,71.2,Credit/Debit card,Fashion
+IN00217,Tanvi Kalita,Female,28.0,Hyderabad,Telangana,Tier 1,22.0,76,52.0,22,1770.0,18,48.5,UPI,Electronics
+IN00218,Sunita Rao,,50.0,Patna,Bihar,Tier 2,15.8,100,,22,3290.0,20,85.6,Credit/Debit card,Fashion
+IN00219,Ritu Kapoor,Female,46.0,Pune,Maharashtra,Tier 1,4.2,30,87.0,8,1150.0,188,41.9,UPI,Grocery
+IN00220,Shreya Singh,Female,29.0,Nagpur,Maharashtra,Tier 2,5.2,82,28.0,28,570.0,35,75.4,Wallet,Fashion
+IN00221,Abhishek Verma,Male,34.0,Kochi,Kerala,Tier 2,23.2,32,18.0,10,2680.0,44,55.2,Credit/Debit card,Electronics
+IN00222,Riya Agarwal,Female,22.0,Udaipur,Rajasthan,Tier 3,2.9,79,23.0,16,530.0,16,79.8,Wallet,Fashion
+IN00223,Ritu Bora,Female,41.0,Bhopal,Madhya Pradesh,Tier 2,6.6,55,35.0,20,950.0,57,63.8,UPI,Home & Kitchen
+IN00224,Suresh Rao,,63.0,Guwahati,Assam,Tier 2,5.0,23,40.0,2,760.0,101,35.0,UPI,Fashion
+IN00225,Abhishek Joshi,Male,41.0,Patna,Bihar,Tier 2,20.7,43,32.0,11,3610.0,62,35.4,Credit/Debit card,Electronics
+IN00226,Mohit Verma,Male,61.0,Jabalpur,Madhya Pradesh,Tier 3,7.8,17,29.0,3,760.0,142,50.0,UPI,Grocery
+IN00227,Nikhil Jain,Male,34.0,Hyderabad,Telangana,Tier 1,17.2,66,47.0,38,2730.0,22,36.5,Credit/Debit card,Beauty & Personal Care
+IN00228,Nikhil Rao,Male,38.0,Patna,Bihar,Tier 2,8.7,53,33.0,9,1770.0,27,81.7,Credit/Debit card,Electronics
+IN00229,Rajesh Chauhan,Male,47.0,Hyderabad,Telangana,Tier 1,9.3,58,10.0,14,1810.0,43,24.1,Cash on delivery,Fashion
+IN00230,Swati Chatterjee,Female,25.0,Pune,Maharashtra,Tier 1,14.8,91,49.0,36,2390.0,26,40.4,UPI,Home & Kitchen
+IN00231,Nisha Malhotra,Female,30.0,Delhi,Delhi,Tier 1,6.1,92,39.0,37,3200.0,5,78.6,UPI,Home & Kitchen
+IN00232,Abhishek Nair,,41.0,Lucknow,Uttar Pradesh,Tier 2,5.3,86,23.0,29,280.0,19,69.6,UPI,Fashion
+IN00233,Aditi Agarwal,Female,61.0,Dehradun,Uttarakhand,Tier 3,3.5,18,25.0,5,770.0,176,26.2,Cash on delivery,Home & Kitchen
+IN00234,Komal Patel,Female,34.0,Ujjain,Madhya Pradesh,Tier 3,8.2,51,,15,1390.0,41,74.7,UPI,Grocery
+IN00235,Sanjay Iyer,Male,55.0,Mumbai,Maharashtra,Tier 1,3.8,10,67.0,2,,125,24.1,Cash on delivery,Fashion
+IN00236,Anjali Kapoor,Female,39.0,Pune,Maharashtra,Tier 1,13.2,57,36.0,14,,35,32.2,UPI,Beauty & Personal Care
+IN00237,Kavya Patel,Female,31.0,Sagar,Madhya Pradesh,Tier 3,2.6,71,11.0,27,590.0,9,83.3,UPI,Beauty & Personal Care
+IN00238,Nisha Banerjee,Female,18.0,Indore,Madhya Pradesh,Tier 2,7.2,58,43.0,17,1570.0,12,39.8,UPI,Fashion
+IN00239,Lakshmi Chatterjee,Female,30.0,Guwahati,Assam,Tier 2,11.8,72,55.0,33,2480.0,12,82.4,UPI,Beauty & Personal Care
+IN00240,Vikram Malhotra,Male,38.0,Pune,Maharashtra,Tier 1,9.9,100,89.0,41,2390.0,12,50.8,UPI,Beauty & Personal Care
+IN00241,Sneha Ghosh,Female,,Chennai,Tamil Nadu,Tier 1,12.5,52,53.0,18,1790.0,15,60.1,UPI,Fashion
+IN00242,Rahul Chatterjee,Male,39.0,Delhi,Delhi,Tier 1,6.4,48,8.0,17,1550.0,23,72.2,Credit/Debit card,Grocery
+IN00243,Sunita Mehta,Female,52.0,Sagar,Madhya Pradesh,Tier 3,29.7,32,20.0,11,,53,36.8,Credit/Debit card,Electronics
+IN00244,Mohit Pandey,Male,34.0,Udaipur,Rajasthan,Tier 3,2.8,68,13.0,35,880.0,25,95.4,UPI,Fashion
+IN00245,Nisha Kulkarni,Female,,Ahmedabad,Gujarat,Tier 1,9.2,67,,14,840.0,3,29.2,UPI,Home & Kitchen
+IN00246,Kavya Kapoor,Female,63.0,Kolkata,West Bengal,Tier 1,8.0,34,53.0,6,150.0,185,28.1,UPI,Electronics
+IN00247,Vivaan Joshi,Male,56.0,Kochi,Kerala,Tier 2,12.0,45,19.0,11,2000.0,56,40.8,UPI,Grocery
+IN00248,Pooja Sharma,Female,31.0,Siliguri,West Bengal,Tier 3,3.1,72,28.0,32,770.0,32,62.2,UPI,Grocery
+IN00249,Aarav Singh,Male,37.0,Jabalpur,Madhya Pradesh,Tier 3,4.2,79,,26,650.0,34,64.5,Wallet,Beauty & Personal Care
+IN00250,Tanvi Shah,Female,,Patna,Bihar,Tier 2,6.7,76,24.0,34,450.0,20,72.2,Cash on delivery,Electronics
+IN00251,Pallavi Gupta,,44.0,Bhopal,Madhya Pradesh,Tier 2,,54,30.0,20,1670.0,41,51.8,UPI,Beauty & Personal Care
+IN00252,Pallavi Thakur,Female,66.0,Surat,Gujarat,Tier 2,5.7,17,61.0,4,700.0,151,15.3,Cash on delivery,Beauty & Personal Care
+IN00253,Harsh Pillai,Male,18.0,Jabalpur,Madhya Pradesh,Tier 3,6.0,85,12.0,34,700.0,24,72.8,UPI,Grocery
+IN00254,Kavya Malhotra,Female,53.0,Kochi,Kerala,Tier 2,27.9,39,23.0,8,3920.0,85,25.3,Credit/Debit card,Grocery
+IN00255,Nisha Rao,Female,35.0,Chennai,Tamil Nadu,Tier 1,16.0,18,29.0,12,2630.0,53,,UPI,Fashion
+IN00256,Karan Iyer,Male,55.0,Lucknow,Uttar Pradesh,Tier 2,7.9,55,28.0,17,1120.0,35,46.6,UPI,Fashion
+IN00257,Sneha Ghosh,Female,29.0,Lucknow,Uttar Pradesh,Tier 2,10.4,43,25.0,10,940.0,2,65.4,Credit/Debit card,Electronics
+IN00258,Sanjay Kalita,Male,36.0,Delhi,Delhi,Tier 1,7.9,89,23.0,43,2070.0,11,52.5,UPI,Electronics
+IN00259,Rajesh Rao,Male,35.0,Guwahati,Assam,Tier 2,12.6,89,53.0,39,2690.0,7,71.2,UPI,Grocery
+IN00260,Rahul Tiwari,Male,65.0,Lucknow,Uttar Pradesh,Tier 2,10.1,41,40.0,14,1480.0,8,100.0,Credit/Debit card,Grocery
+IN00261,Pallavi Nair,,43.0,Guwahati,Assam,Tier 2,24.0,80,37.0,34,2640.0,1,27.1,Credit/Debit card,Grocery
+IN00262,Sunita Chauhan,Female,52.0,Hyderabad,Telangana,Tier 1,7.7,46,15.0,6,1200.0,35,,Credit/Debit card,Electronics
+IN00263,Rajesh Singh,Male,38.0,Kolkata,West Bengal,Tier 1,22.4,28,46.0,9,4170.0,95,28.5,Credit/Debit card,Electronics
+IN00264,Karan Patel,Male,41.0,Pune,Maharashtra,Tier 1,17.8,78,56.0,21,2410.0,13,34.1,UPI,Electronics
+IN00265,Sunita Rao,Female,56.0,Ujjain,Madhya Pradesh,Tier 3,6.8,29,44.0,3,410.0,132,27.4,Credit/Debit card,Grocery
+IN00266,Rahul Kapoor,Male,41.0,Chandigarh,Chandigarh,Tier 2,23.8,78,49.0,41,2010.0,6,57.8,UPI,Fashion
+IN00267,Abhishek Joshi,Male,40.0,Nagpur,Maharashtra,Tier 2,24.8,18,52.0,10,2650.0,64,45.2,Credit/Debit card,Home & Kitchen
+IN00268,Komal Jain,Female,41.0,Indore,Madhya Pradesh,Tier 2,19.8,84,59.0,45,2460.0,13,85.2,UPI,Fashion
+IN00269,Divya Desai,Female,43.0,Hyderabad,Telangana,Tier 1,21.5,93,64.0,41,2370.0,6,55.5,Credit/Debit card,Grocery
+IN00270,Arjun Pillai,Male,21.0,Patna,Bihar,Tier 2,13.9,82,51.0,30,1730.0,3,63.5,UPI,Home & Kitchen
+IN00271,Suresh Verma,Male,35.0,Hyderabad,Telangana,Tier 1,20.4,72,64.0,41,1660.0,14,79.0,Credit/Debit card,Home & Kitchen
+IN00272,Abhishek Shah,Male,21.0,Guwahati,Assam,Tier 2,21.3,87,15.0,42,2680.0,13,93.6,UPI,Electronics
+IN00273,Sunita Patel,Female,38.0,Chennai,Tamil Nadu,Tier 1,15.4,88,,47,1100.0,17,53.3,UPI,Fashion
+IN00274,Ritu Kapoor,Female,43.0,Hyderabad,Telangana,Tier 1,10.5,45,16.0,15,1420.0,65,36.8,Credit/Debit card,Grocery
+IN00275,Rekha Kulkarni,Female,55.0,Guwahati,Assam,Tier 2,13.7,34,16.0,14,1560.0,25,26.7,UPI,Home & Kitchen
+IN00276,Tanvi Kapoor,Female,23.0,Bengaluru,Karnataka,Tier 1,5.9,91,23.0,25,850.0,16,100.0,UPI,Grocery
+IN00277,Rahul Nair,Male,44.0,Mumbai,Maharashtra,Tier 1,27.9,24,35.0,9,4910.0,54,38.9,Credit/Debit card,Fashion
+IN00278,Rekha Agarwal,Female,29.0,Siliguri,West Bengal,Tier 3,3.0,68,42.0,27,740.0,23,90.0,UPI,Fashion
+IN00279,Neha Patel,Female,52.0,Dehradun,Uttarakhand,Tier 3,6.3,23,59.0,3,1160.0,167,13.2,Cash on delivery,Grocery
+IN00280,Mohit Reddy,Male,62.0,Guwahati,Assam,Tier 2,5.4,23,27.0,3,1150.0,183,45.4,UPI,Home & Kitchen
+IN00281,Sneha Pandey,Female,38.0,Chandigarh,Chandigarh,Tier 2,20.5,86,53.0,30,2500.0,29,61.7,Cash on delivery,Electronics
+IN00282,Lakshmi Joshi,Female,35.0,Mumbai,Maharashtra,Tier 1,28.6,33,25.0,9,2230.0,39,24.2,UPI,Electronics
+IN00283,Nikhil Kapoor,Male,34.0,Kolkata,West Bengal,Tier 1,25.4,27,60.0,6,2730.0,76,30.9,Credit/Debit card,Electronics
+IN00284,Swati Jain,Female,40.0,Mumbai,Maharashtra,Tier 1,26.9,13,25.0,10,3930.0,92,60.7,Credit/Debit card,Fashion
+IN00285,Rahul Pandey,Male,29.0,Patna,Bihar,Tier 2,10.2,43,24.0,12,3850.0,48,44.1,Credit/Debit card,Electronics
+IN00286,Ananya Malhotra,Female,27.0,Chandigarh,Chandigarh,Tier 2,4.0,71,21.0,17,680.0,21,89.3,UPI,Grocery
+IN00287,Sunita Desai,Female,46.0,Mumbai,Maharashtra,Tier 1,20.5,87,63.0,34,2160.0,14,89.3,UPI,Electronics
+IN00288,Aarav Ghosh,Male,28.0,Sagar,Madhya Pradesh,Tier 3,5.5,64,33.0,23,490.0,19,74.8,Cash on delivery,Beauty & Personal Care
+IN00289,Meera Gupta,Female,34.0,Udaipur,Rajasthan,Tier 3,3.9,98,13.0,26,820.0,19,74.6,UPI,Home & Kitchen
+IN00290,Ankit Kalita,Male,48.0,Pune,Maharashtra,Tier 1,15.5,78,31.0,41,3050.0,16,39.2,UPI,Beauty & Personal Care
+IN00291,Anjali Malhotra,Female,38.0,Chandigarh,Chandigarh,Tier 2,10.4,53,13.0,23,910.0,28,33.1,UPI,Home & Kitchen
+IN00292,Ankit Nair,Male,40.0,Dehradun,Uttarakhand,Tier 3,12.9,72,36.0,36,2150.0,3,77.4,UPI,Beauty & Personal Care
+IN00293,Swati Das,Female,44.0,Dehradun,Uttarakhand,Tier 3,4.8,20,42.0,3,960.0,127,38.2,UPI,Grocery
+IN00294,Arjun Das,Male,34.0,Chennai,Tamil Nadu,Tier 1,12.7,72,50.0,28,2730.0,2,46.7,Wallet,Beauty & Personal Care
+IN00295,Gaurav Kalita,Male,46.0,Indore,Madhya Pradesh,Tier 2,7.2,15,44.0,1,690.0,154,51.4,Cash on delivery,Fashion
+IN00296,Sandeep Kulkarni,Male,52.0,Ujjain,Madhya Pradesh,Tier 3,7.8,13,61.0,3,500.0,186,5.6,Cash on delivery,Home & Kitchen
+IN00297,Lakshmi Agarwal,Female,36.0,Mumbai,Maharashtra,Tier 1,7.7,35,45.0,3,590.0,131,58.5,Cash on delivery,Beauty & Personal Care
+IN00298,Harsh Pandey,Male,55.0,Delhi,Delhi,Tier 1,10.7,64,27.0,9,1440.0,36,58.4,Wallet,Fashion
+IN00299,Abhishek Agarwal,Male,22.0,Mysuru,Karnataka,Tier 3,5.3,56,26.0,19,1110.0,53,58.1,UPI,Grocery
+IN00300,Anjali Das,Female,47.0,Kolkata,West Bengal,Tier 1,10.2,21,19.0,26,1350.0,30,41.7,UPI,Grocery
+IN00301,Vivaan Shah,Male,46.0,Indore,Madhya Pradesh,Tier 2,6.5,57,38.0,20,830.0,25,85.7,UPI,Grocery
+IN00302,Tanvi Agarwal,Female,42.0,Guwahati,Assam,Tier 2,18.4,65,48.0,39,2200.0,25,63.5,Credit/Debit card,Beauty & Personal Care
+IN00303,Divya Patel,Female,28.0,Bengaluru,Karnataka,Tier 1,4.5,81,20.0,30,150.0,23,60.6,UPI,Beauty & Personal Care
+IN00304,Nikhil Iyer,Male,31.0,Udaipur,Rajasthan,Tier 3,5.8,83,26.0,24,730.0,15,87.4,Credit/Debit card,Beauty & Personal Care
+IN00305,Swati Banerjee,Female,61.0,Bhopal,Madhya Pradesh,Tier 2,3.1,22,31.0,2,1240.0,90,6.4,Cash on delivery,Fashion
+IN00306,Rekha Ghosh,Female,20.0,Bengaluru,Karnataka,Tier 1,4.4,65,24.0,27,1160.0,16,83.9,Wallet,Electronics
+IN00307,Rahul Mehta,Male,19.0,Guwahati,Assam,Tier 2,5.4,78,,23,350.0,35,93.4,UPI,Home & Kitchen
+IN00308,Siddharth Sharma,Male,61.0,Bengaluru,Karnataka,Tier 1,7.5,44,27.0,15,1210.0,56,36.8,Cash on delivery,Fashion
+IN00309,Shreya Patel,Female,48.0,Patna,Bihar,Tier 2,24.3,14,23.0,17,4930.0,77,43.0,UPI,Electronics
+IN00310,Meera Verma,Female,34.0,Sagar,Madhya Pradesh,Tier 3,19.5,82,52.0,40,2460.0,5,58.4,Credit/Debit card,Beauty & Personal Care
+IN00311,Pooja Rao,Female,36.0,Nagpur,Maharashtra,Tier 2,7.9,83,13.0,31,600.0,45,75.5,UPI,Grocery
+IN00312,Vivaan Desai,Male,27.0,Jaipur,Rajasthan,Tier 2,4.7,75,29.0,33,650.0,6,76.3,UPI,Grocery
+IN00313,Aditi Chauhan,Female,36.0,Delhi,Delhi,Tier 1,20.6,14,9.0,7,3850.0,126,24.9,Credit/Debit card,Fashion
+IN00314,Karan Menon,Male,22.0,Kochi,Kerala,Tier 2,7.1,89,31.0,32,,5,80.0,UPI,Home & Kitchen
+IN00315,Mohit Verma,Male,22.0,Gwalior,Madhya Pradesh,Tier 3,6.0,100,34.0,30,860.0,8,88.7,UPI,Home & Kitchen
+IN00316,Rajesh Yadav,Male,22.0,Jaipur,Rajasthan,Tier 2,2.4,69,36.0,21,740.0,17,60.4,Credit/Debit card,Beauty & Personal Care
+IN00317,Sunita Shah,Female,22.0,Guwahati,Assam,Tier 2,3.0,68,21.0,26,680.0,27,86.8,UPI,Fashion
+IN00318,Komal Jain,Female,25.0,Chandigarh,Chandigarh,Tier 2,14.4,55,41.0,9,1550.0,36,47.9,UPI,Beauty & Personal Care
+IN00319,Sneha Pillai,Female,46.0,Nagpur,Maharashtra,Tier 2,22.7,30,47.0,8,4050.0,106,44.6,UPI,Electronics
+IN00320,Komal Banerjee,Female,43.0,Chandigarh,Chandigarh,Tier 2,8.1,30,41.0,4,580.0,96,12.0,Wallet,Fashion
+IN00321,Kavya Mishra,Female,48.0,Chandigarh,Chandigarh,Tier 2,4.8,32,15.0,4,160.0,146,20.7,UPI,Home & Kitchen
+IN00322,Vikram Jain,Male,18.0,Jabalpur,Madhya Pradesh,Tier 3,3.5,69,17.0,28,810.0,24,77.8,UPI,Grocery
+IN00323,Anjali Reddy,Female,18.0,Gwalior,Madhya Pradesh,Tier 3,3.5,94,32.0,28,650.0,20,65.3,Wallet,Fashion
+IN00324,Anjali Desai,Female,25.0,Chennai,Tamil Nadu,Tier 1,4.8,88,26.0,30,1290.0,23,53.0,UPI,Grocery
+IN00325,Mohit Mehta,Male,51.0,Mumbai,Maharashtra,Tier 1,4.0,18,5.0,3,1010.0,106,49.6,Credit/Debit card,Grocery
+IN00326,Harsh Singh,Male,57.0,Bhopal,Madhya Pradesh,Tier 2,8.4,50,26.0,8,1510.0,51,61.5,Wallet,Beauty & Personal Care
+IN00327,Pallavi Shah,Female,35.0,Ujjain,Madhya Pradesh,Tier 3,7.1,48,28.0,13,1020.0,25,66.1,UPI,Home & Kitchen
+IN00328,Aarav Kapoor,Male,22.0,Dehradun,Uttarakhand,Tier 3,6.1,77,11.0,39,680.0,11,76.4,Credit/Debit card,Home & Kitchen
+IN00329,Karan Chatterjee,Male,37.0,Hyderabad,Telangana,Tier 1,11.9,49,21.0,12,890.0,56,73.0,Cash on delivery,Beauty & Personal Care
+IN00330,Kavya Chatterjee,Female,57.0,Delhi,Delhi,Tier 1,24.1,45,42.0,18,3610.0,62,37.8,Credit/Debit card,Beauty & Personal Care
+IN00331,Gaurav Banerjee,Male,29.0,Indore,Madhya Pradesh,Tier 2,6.6,50,28.0,11,1310.0,39,57.7,Credit/Debit card,Fashion
+IN00332,Meera Agarwal,Female,35.0,Nagpur,Maharashtra,Tier 2,23.8,38,59.0,7,2780.0,62,91.8,Credit/Debit card,Beauty & Personal Care
+IN00333,Kavya Saxena,,30.0,Mumbai,Maharashtra,Tier 1,7.9,65,37.0,13,1500.0,42,68.9,UPI,Grocery
+IN00334,Sneha Das,Female,53.0,Mumbai,Maharashtra,Tier 1,5.2,24,52.0,4,1130.0,149,33.4,Wallet,Grocery
+IN00335,Shreya Yadav,Female,38.0,Surat,Gujarat,Tier 2,14.4,79,63.0,37,2770.0,4,47.6,Wallet,Electronics
+IN00336,Vivaan Ghosh,Male,45.0,Lucknow,Uttar Pradesh,Tier 2,12.1,50,23.0,14,1440.0,37,38.0,UPI,Electronics
+IN00337,Rahul Singh,Male,46.0,Pune,Maharashtra,Tier 1,18.1,76,23.0,38,2170.0,12,47.3,UPI,Fashion
+IN00338,Shreya Ghosh,Female,30.0,Delhi,Delhi,Tier 1,9.1,62,34.0,17,1120.0,27,,UPI,Beauty & Personal Care
+IN00339,Aarav Mishra,Male,34.0,Bhopal,Madhya Pradesh,Tier 2,20.6,53,,34,2900.0,11,66.1,Wallet,Fashion
+IN00340,Tanvi Chatterjee,Female,50.0,Lucknow,Uttar Pradesh,Tier 2,7.2,21,34.0,8,1160.0,240,26.3,UPI,Grocery
+IN00341,Pooja Pandey,Female,44.0,Delhi,Delhi,Tier 1,20.8,69,48.0,46,1900.0,5,76.9,UPI,Electronics
+IN00342,Mohit Jain,Male,52.0,Dehradun,Uttarakhand,Tier 3,6.6,12,36.0,8,1010.0,103,18.1,Cash on delivery,Home & Kitchen
+IN00343,Nisha Shah,Female,48.0,Mumbai,Maharashtra,Tier 1,5.1,60,18.0,9,1400.0,35,66.3,Cash on delivery,Fashion
+IN00344,Manoj Gupta,Male,34.0,Gwalior,Madhya Pradesh,Tier 3,10.4,57,37.0,12,1830.0,28,,Cash on delivery,Electronics
+IN00345,Nisha Pandey,Female,29.0,Kolkata,West Bengal,Tier 1,8.0,30,21.0,14,1370.0,49,20.0,UPI,Home & Kitchen
+IN00346,Mohit Ghosh,Male,36.0,Bengaluru,Karnataka,Tier 1,12.8,62,38.0,14,730.0,32,33.7,UPI,Fashion
+IN00347,Riya Tiwari,Female,52.0,Gwalior,Madhya Pradesh,Tier 3,5.0,20,52.0,5,1050.0,152,9.4,UPI,Grocery
+IN00348,Ananya Tiwari,Female,45.0,Ahmedabad,Gujarat,Tier 1,14.6,9,13.0,13,3210.0,82,44.3,Credit/Debit card,Electronics
+IN00349,Rohan Agarwal,,44.0,Mysuru,Karnataka,Tier 3,7.5,45,29.0,24,1370.0,13,64.8,UPI,Home & Kitchen
+IN00350,Rajesh Pandey,Male,43.0,Chennai,Tamil Nadu,Tier 1,25.0,90,45.0,30,2550.0,10,60.1,Credit/Debit card,Electronics
+IN00351,Pallavi Kalita,Female,38.0,Ujjain,Madhya Pradesh,Tier 3,,58,46.0,16,,10,2.3,UPI,Electronics
+IN00352,Arjun Pandey,Male,30.0,Nagpur,Maharashtra,Tier 2,23.7,74,27.0,32,2860.0,22,63.1,UPI,Fashion
+IN00353,Isha Pandey,Female,41.0,Sagar,Madhya Pradesh,Tier 3,13.4,39,14.0,7,850.0,9,58.9,Credit/Debit card,Home & Kitchen
+IN00354,Anjali Verma,Female,48.0,Lucknow,Uttar Pradesh,Tier 2,6.9,37,10.0,17,1310.0,44,69.1,UPI,Beauty & Personal Care
+IN00355,Nisha Gupta,Female,33.0,Hyderabad,Telangana,Tier 1,7.3,78,11.0,35,690.0,16,95.4,Credit/Debit card,Home & Kitchen
+IN00356,Vikram Pandey,Male,28.0,Guwahati,Assam,Tier 2,5.6,70,24.0,24,310.0,18,98.1,Cash on delivery,Electronics
+IN00357,Gaurav Mehta,Male,52.0,Lucknow,Uttar Pradesh,Tier 2,8.5,72,21.0,18,1220.0,18,39.6,UPI,Grocery
+IN00358,Sandeep Banerjee,Male,38.0,Dehradun,Uttarakhand,Tier 3,10.0,39,11.0,14,1330.0,40,42.3,Cash on delivery,Electronics
+IN00359,Pranav Iyer,Male,,Kochi,Kerala,Tier 2,4.2,87,18.0,34,540.0,2,82.3,Cash on delivery,Grocery
+IN00360,Shreya Desai,Female,31.0,Chennai,Tamil Nadu,Tier 1,6.9,63,11.0,9,1370.0,37,30.7,Credit/Debit card,Fashion
+IN00361,Priya Tiwari,,49.0,Mumbai,Maharashtra,Tier 1,7.2,26,61.0,2,760.0,261,47.0,Credit/Debit card,Fashion
+IN00362,Shreya Pandey,Female,46.0,Indore,Madhya Pradesh,Tier 2,13.5,83,55.0,36,2730.0,6,,UPI,Beauty & Personal Care
+IN00363,Deepak Tiwari,Male,44.0,Ahmedabad,Gujarat,Tier 1,25.6,67,14.0,42,3360.0,1,47.4,Cash on delivery,Fashion
+IN00364,Nisha Chatterjee,Female,39.0,Ahmedabad,Gujarat,Tier 1,15.6,93,57.0,26,2020.0,20,73.1,UPI,Beauty & Personal Care
+IN00365,Sandeep Nair,Male,42.0,Sagar,Madhya Pradesh,Tier 3,9.7,51,35.0,24,1700.0,34,40.6,Cash on delivery,Fashion
+IN00366,Nikhil Reddy,Male,22.0,Gwalior,Madhya Pradesh,Tier 3,1.5,74,20.0,34,880.0,6,100.0,Cash on delivery,Fashion
+IN00367,Arjun Iyer,Male,46.0,Delhi,Delhi,Tier 1,8.4,45,28.0,10,1330.0,42,41.1,UPI,Fashion
+IN00368,Kavya Singh,Female,26.0,Mysuru,Karnataka,Tier 3,8.4,50,22.0,18,1750.0,37,37.7,Wallet,Grocery
+IN00369,Ritu Thakur,Female,25.0,Hyderabad,Telangana,Tier 1,5.1,75,30.0,25,380.0,7,77.5,Credit/Debit card,Fashion
+IN00370,Amit Banerjee,Male,45.0,Udaipur,Rajasthan,Tier 3,5.8,17,48.0,2,230.0,183,42.0,UPI,Fashion
+IN00371,Siddharth Ghosh,Male,32.0,Nagpur,Maharashtra,Tier 2,9.1,36,23.0,16,1260.0,1,36.7,Credit/Debit card,Electronics
+IN00372,Neha Pandey,Female,56.0,Ujjain,Madhya Pradesh,Tier 3,22.0,39,47.0,6,2630.0,49,34.3,UPI,Electronics
+IN00373,Vikram Joshi,Male,28.0,Delhi,Delhi,Tier 1,5.0,84,27.0,35,220.0,26,89.4,UPI,Fashion
+IN00374,Deepak Saxena,Male,43.0,Hyderabad,Telangana,Tier 1,24.3,34,31.0,7,2580.0,99,61.3,UPI,Electronics
+IN00375,Aditi Tiwari,Female,32.0,Lucknow,Uttar Pradesh,Tier 2,22.7,79,27.0,27,1710.0,16,74.3,Wallet,Home & Kitchen
+IN00376,Mohit Shah,Male,31.0,Guwahati,Assam,Tier 2,18.3,83,49.0,22,1900.0,7,100.0,UPI,Grocery
+IN00377,Sunita Desai,Female,64.0,Patna,Bihar,Tier 2,4.4,18,69.0,6,760.0,148,50.3,Cash on delivery,Grocery
+IN00378,Rahul Saxena,Male,30.0,Mysuru,Karnataka,Tier 3,5.3,76,32.0,29,660.0,20,,UPI,Beauty & Personal Care
+IN00379,Tanvi Thakur,Female,25.0,Kolkata,West Bengal,Tier 1,8.8,76,3.0,22,920.0,24,71.8,UPI,Fashion
+IN00380,Komal Chatterjee,Female,34.0,Indore,Madhya Pradesh,Tier 2,9.2,50,,18,1180.0,30,45.1,Credit/Debit card,Electronics
+IN00381,Pooja Gupta,Female,39.0,Patna,Bihar,Tier 2,,38,48.0,24,1070.0,41,,UPI,Electronics
+IN00382,Abhishek Kalita,Male,32.0,Siliguri,West Bengal,Tier 3,4.1,20,48.0,3,910.0,158,36.0,Cash on delivery,Beauty & Personal Care
+IN00383,Rajesh Mishra,Male,33.0,Ahmedabad,Gujarat,Tier 1,7.5,46,19.0,18,660.0,60,83.7,Cash on delivery,Beauty & Personal Care
+IN00384,Shreya Verma,Female,32.0,Bhopal,Madhya Pradesh,Tier 2,7.2,78,22.0,33,660.0,1,,UPI,Beauty & Personal Care
+IN00385,Isha Gupta,Female,26.0,Gwalior,Madhya Pradesh,Tier 3,6.4,86,26.0,31,,3,53.3,UPI,Fashion
+IN00386,Meera Sharma,Female,51.0,Bengaluru,Karnataka,Tier 1,6.3,38,45.0,4,720.0,184,0.0,UPI,Grocery
+IN00387,Sunita Banerjee,Female,48.0,Chandigarh,Chandigarh,Tier 2,7.6,60,12.0,12,1400.0,60,42.9,Credit/Debit card,Fashion
+IN00388,Sanjay Verma,Male,48.0,Mysuru,Karnataka,Tier 3,5.3,6,44.0,8,700.0,241,11.3,UPI,Grocery
+IN00389,Ananya Rao,Female,34.0,Chennai,Tamil Nadu,Tier 1,16.1,100,46.0,36,2730.0,1,56.4,Credit/Debit card,Grocery
+IN00390,Harsh Desai,Male,57.0,Sagar,Madhya Pradesh,Tier 3,2.7,25,21.0,4,510.0,141,37.0,UPI,Beauty & Personal Care
+IN00391,Ankit Pandey,Male,,Ujjain,Madhya Pradesh,Tier 3,8.7,53,38.0,21,2020.0,15,56.2,Cash on delivery,Electronics
+IN00392,Komal Jain,Female,42.0,Ujjain,Madhya Pradesh,Tier 3,9.9,94,64.0,28,2650.0,6,55.1,Wallet,Electronics
+IN00393,Sanjay Verma,Male,25.0,Guwahati,Assam,Tier 2,8.9,34,25.0,12,1460.0,30,39.6,Credit/Debit card,Grocery
+IN00394,Manoj Menon,Male,38.0,Lucknow,Uttar Pradesh,Tier 2,7.9,59,52.0,16,1540.0,12,39.4,Cash on delivery,Fashion
+IN00395,Manoj Patel,Male,30.0,Chennai,Tamil Nadu,Tier 1,17.2,77,45.0,33,2450.0,12,73.5,UPI,Grocery
+IN00396,Nikhil Banerjee,Male,31.0,Ujjain,Madhya Pradesh,Tier 3,3.3,94,6.0,29,280.0,25,93.4,UPI,Home & Kitchen
+IN00397,Shreya Bora,,39.0,Delhi,Delhi,Tier 1,9.8,50,22.0,9,1160.0,58,19.3,Credit/Debit card,Beauty & Personal Care
+IN00398,Komal Ghosh,Female,42.0,Nagpur,Maharashtra,Tier 2,22.6,12,40.0,3,3920.0,79,12.4,UPI,Home & Kitchen
+IN00399,Rajesh Saxena,Male,23.0,Jaipur,Rajasthan,Tier 2,4.1,84,,30,740.0,1,70.3,UPI,Grocery
+IN00400,Ananya Shah,Female,18.0,Kochi,Kerala,Tier 2,4.8,86,12.0,26,780.0,30,68.4,UPI,Grocery
+IN00401,Manoj Malhotra,Male,57.0,Hyderabad,Telangana,Tier 1,,23,10.0,15,2700.0,76,41.4,Credit/Debit card,Home & Kitchen
+IN00402,Vivaan Bora,Male,38.0,Sagar,Madhya Pradesh,Tier 3,7.2,19,54.0,5,500.0,131,24.5,UPI,Grocery
+IN00403,Ananya Agarwal,Female,26.0,Nagpur,Maharashtra,Tier 2,4.5,44,38.0,10,1210.0,50,21.7,Wallet,Fashion
+IN00404,Sneha Patel,Female,42.0,Chennai,Tamil Nadu,Tier 1,,75,38.0,41,1840.0,21,74.3,Cash on delivery,Fashion
+IN00405,Priya Das,Female,48.0,Dehradun,Uttarakhand,Tier 3,4.5,16,3.0,5,1210.0,103,21.6,Credit/Debit card,Grocery
+IN00406,Abhishek Saxena,Male,52.0,Surat,Gujarat,Tier 2,8.7,19,31.0,3,1220.0,170,13.5,Wallet,Fashion
+IN00407,Priya Saxena,Female,44.0,Kolkata,West Bengal,Tier 1,,36,48.0,3,3860.0,87,69.9,UPI,Fashion
+IN00408,Aditi Mehta,Female,35.0,Indore,Madhya Pradesh,Tier 2,7.2,58,41.0,15,1640.0,40,28.3,UPI,Home & Kitchen
+IN00409,Siddharth Nair,Male,28.0,Patna,Bihar,Tier 2,22.4,77,41.0,32,2780.0,4,54.0,Credit/Debit card,Beauty & Personal Care
+IN00410,Rohan Nair,Male,64.0,Ujjain,Madhya Pradesh,Tier 3,2.7,26,40.0,6,750.0,102,44.2,UPI,Home & Kitchen
+IN00411,Rohan Mishra,,37.0,Ahmedabad,Gujarat,Tier 1,8.3,48,22.0,17,,37,53.3,UPI,Grocery
+IN00412,Rohan Nair,Male,37.0,Siliguri,West Bengal,Tier 3,6.9,37,19.0,6,1820.0,56,,Credit/Debit card,Home & Kitchen
+IN00413,Anjali Agarwal,Female,,Jabalpur,Madhya Pradesh,Tier 3,24.8,85,66.0,38,1790.0,11,56.0,Credit/Debit card,Electronics
+IN00414,Mohit Gupta,Male,56.0,Lucknow,Uttar Pradesh,Tier 2,5.1,27,28.0,2,820.0,144,36.8,Credit/Debit card,Home & Kitchen
+IN00415,Deepak Singh,Male,39.0,Mumbai,Maharashtra,Tier 1,14.4,79,56.0,34,2980.0,17,70.1,UPI,Electronics
+IN00416,Pallavi Banerjee,Female,57.0,Delhi,Delhi,Tier 1,18.6,31,39.0,10,2560.0,113,38.3,Credit/Debit card,Fashion
+IN00417,Lakshmi Shah,Female,,Mumbai,Maharashtra,Tier 1,19.4,76,43.0,41,3830.0,1,49.6,Credit/Debit card,Home & Kitchen
+IN00418,Riya Mehta,Female,,Kochi,Kerala,Tier 2,13.1,70,37.0,17,1580.0,53,17.8,Credit/Debit card,Home & Kitchen
+IN00419,Sandeep Yadav,Male,51.0,Bhopal,Madhya Pradesh,Tier 2,15.9,14,30.0,16,3840.0,74,14.0,UPI,Electronics
+IN00420,Manoj Agarwal,Male,41.0,Lucknow,Uttar Pradesh,Tier 2,4.1,22,33.0,7,500.0,124,37.5,Credit/Debit card,Home & Kitchen
+IN00421,Karan Desai,Male,34.0,Jaipur,Rajasthan,Tier 2,9.0,50,35.0,11,1310.0,52,40.1,Credit/Debit card,Home & Kitchen
+IN00422,Karan Mehta,Male,27.0,Mumbai,Maharashtra,Tier 1,14.7,93,45.0,39,2580.0,20,55.8,Credit/Debit card,Grocery
+IN00423,Riya Malhotra,Female,50.0,Kochi,Kerala,Tier 2,15.2,79,26.0,31,2690.0,3,63.3,Credit/Debit card,Electronics
+IN00424,Rohan Banerjee,,39.0,Bengaluru,Karnataka,Tier 1,21.5,100,53.0,35,2150.0,15,76.9,UPI,Grocery
+IN00425,Sandeep Agarwal,Male,,Dehradun,Uttarakhand,Tier 3,9.4,49,11.0,21,1370.0,42,25.4,Credit/Debit card,Grocery
+IN00426,Arjun Chauhan,Male,46.0,Indore,Madhya Pradesh,Tier 2,7.8,46,14.0,13,1040.0,30,45.2,Credit/Debit card,Grocery
+IN00427,Nisha Ghosh,Female,44.0,Udaipur,Rajasthan,Tier 3,22.3,31,38.0,7,3210.0,67,34.1,UPI,Home & Kitchen
+IN00428,Manoj Saxena,Male,48.0,Ujjain,Madhya Pradesh,Tier 3,3.5,30,68.0,3,910.0,213,20.5,UPI,Electronics
+IN00429,Deepak Shah,Male,41.0,Pune,Maharashtra,Tier 1,17.8,81,23.0,43,1490.0,14,52.9,UPI,Fashion
+IN00430,Kavya Ghosh,Female,33.0,Mysuru,Karnataka,Tier 3,,63,1.0,9,790.0,47,69.4,Cash on delivery,Home & Kitchen
+IN00431,Rahul Patel,Male,62.0,Chandigarh,Chandigarh,Tier 2,4.5,31,57.0,3,1190.0,142,32.6,UPI,Grocery
+IN00432,Priya Agarwal,Female,42.0,Patna,Bihar,Tier 2,6.0,44,,15,910.0,47,42.0,UPI,Grocery
+IN00433,Swati Iyer,Female,42.0,Bhopal,Madhya Pradesh,Tier 2,8.6,33,25.0,10,1320.0,32,49.1,Cash on delivery,Grocery
+IN00434,Gaurav Banerjee,Male,53.0,Bengaluru,Karnataka,Tier 1,6.7,43,26.0,21,1200.0,30,76.2,UPI,Electronics
+IN00435,Swati Bora,Female,,Dehradun,Uttarakhand,Tier 3,25.8,96,59.0,39,2100.0,21,34.4,Credit/Debit card,Grocery
+IN00436,Deepak Malhotra,Male,51.0,Chennai,Tamil Nadu,Tier 1,27.8,7,21.0,3,4730.0,108,61.8,Credit/Debit card,Home & Kitchen
+IN00437,Siddharth Kapoor,Male,42.0,Bengaluru,Karnataka,Tier 1,15.8,83,50.0,26,1850.0,16,33.3,UPI,Electronics
+IN00438,Rekha Pillai,Female,28.0,Ujjain,Madhya Pradesh,Tier 3,3.6,76,20.0,34,,1,63.8,UPI,Grocery
+IN00439,Riya Kalita,Female,35.0,Delhi,Delhi,Tier 1,8.3,65,8.0,15,790.0,52,58.2,Credit/Debit card,Electronics
+IN00440,Sneha Ghosh,Female,49.0,Jaipur,Rajasthan,Tier 2,2.6,59,15.0,14,1290.0,60,36.3,Cash on delivery,Grocery
+IN00441,Pallavi Chatterjee,Female,41.0,Lucknow,Uttar Pradesh,Tier 2,9.0,28,30.0,2,370.0,183,9.9,Cash on delivery,Fashion
+IN00442,Sanjay Pillai,Male,37.0,Lucknow,Uttar Pradesh,Tier 2,22.5,89,81.0,41,1680.0,1,43.1,Credit/Debit card,Electronics
+IN00443,Sunita Nair,Female,41.0,Pune,Maharashtra,Tier 1,6.2,47,22.0,18,1190.0,24,52.9,UPI,Fashion
+IN00444,Rahul Bora,Male,50.0,Chennai,Tamil Nadu,Tier 1,32.4,24,23.0,11,,94,45.6,Credit/Debit card,Fashion
+IN00445,Meera Malhotra,Female,56.0,Nagpur,Maharashtra,Tier 2,27.9,36,24.0,6,4590.0,62,27.4,Credit/Debit card,Grocery
+IN00446,Ritu Saxena,Female,,Bengaluru,Karnataka,Tier 1,,65,20.0,10,890.0,31,,UPI,Grocery
+IN00447,Harsh Sharma,,52.0,Ujjain,Madhya Pradesh,Tier 3,5.8,17,33.0,2,870.0,93,28.1,Cash on delivery,Beauty & Personal Care
+IN00448,Vikram Mehta,Male,54.0,Guwahati,Assam,Tier 2,11.1,58,29.0,9,1170.0,40,57.6,UPI,Fashion
+IN00449,Deepak Joshi,Male,50.0,Pune,Maharashtra,Tier 1,18.4,73,33.0,28,3260.0,6,42.3,Wallet,Fashion
+IN00450,Abhishek Banerjee,Male,43.0,Udaipur,Rajasthan,Tier 3,12.3,47,35.0,17,1190.0,42,59.3,Credit/Debit card,Grocery
+IN00451,Manoj Desai,Male,34.0,Indore,Madhya Pradesh,Tier 2,,72,47.0,46,2540.0,13,59.7,UPI,Electronics
+IN00452,Anjali Verma,Female,53.0,Lucknow,Uttar Pradesh,Tier 2,,25,21.0,3,880.0,171,0.0,Cash on delivery,Fashion
+IN00453,Riya Joshi,Female,38.0,Bengaluru,Karnataka,Tier 1,12.5,48,55.0,10,1080.0,27,25.4,UPI,Home & Kitchen
+IN00454,Deepak Kapoor,Male,47.0,Delhi,Delhi,Tier 1,,84,73.0,43,2590.0,10,44.2,UPI,Electronics
+IN00455,Aditi Rao,Female,33.0,Bengaluru,Karnataka,Tier 1,17.8,89,65.0,38,,16,51.5,Credit/Debit card,Electronics
+IN00456,Ankit Patel,Male,42.0,Kochi,Kerala,Tier 2,16.7,26,8.0,12,3000.0,70,29.7,Credit/Debit card,Fashion
+IN00457,Rohan Pandey,Male,49.0,Chennai,Tamil Nadu,Tier 1,1.8,25,51.0,1,880.0,111,6.5,Credit/Debit card,Grocery
+IN00458,Gaurav Bora,Male,30.0,Bhopal,Madhya Pradesh,Tier 2,5.9,71,35.0,30,880.0,26,75.5,Cash on delivery,Home & Kitchen
+IN00459,Vivaan Saxena,Male,46.0,Udaipur,Rajasthan,Tier 3,10.7,54,28.0,9,1620.0,63,53.2,UPI,Grocery
+IN00460,Vikram Malhotra,Male,39.0,Ujjain,Madhya Pradesh,Tier 3,7.9,41,41.0,19,630.0,41,47.9,Cash on delivery,Home & Kitchen
+IN00461,Rekha Saxena,Female,58.0,Dehradun,Uttarakhand,Tier 3,6.4,50,18.0,18,600.0,43,59.8,UPI,Fashion
+IN00462,Arjun Iyer,Male,,Bengaluru,Karnataka,Tier 1,17.5,80,38.0,37,2310.0,18,50.4,UPI,Fashion
+IN00463,Nikhil Shah,Male,75.0,Chandigarh,Chandigarh,Tier 2,2.1,14,36.0,4,1160.0,146,25.2,Cash on delivery,Home & Kitchen
+IN00464,Lakshmi Kalita,Female,47.0,Pune,Maharashtra,Tier 1,22.8,22,40.0,7,3640.0,75,31.6,Credit/Debit card,Home & Kitchen
+IN00465,Rohan Kapoor,Male,,Ujjain,Madhya Pradesh,Tier 3,11.9,53,8.0,9,1300.0,61,65.0,Credit/Debit card,Fashion
+IN00466,Nisha Yadav,Female,37.0,Ujjain,Madhya Pradesh,Tier 3,9.2,31,24.0,12,1330.0,28,,Credit/Debit card,Home & Kitchen
+IN00467,Nisha Nair,Female,36.0,Hyderabad,Telangana,Tier 1,15.2,48,9.0,10,1440.0,34,44.5,UPI,Home & Kitchen
+IN00468,Harsh Verma,Male,49.0,Udaipur,Rajasthan,Tier 3,4.4,8,11.0,3,4410.0,265,65.6,Cash on delivery,Fashion
+IN00469,Mohit Menon,Male,29.0,Patna,Bihar,Tier 2,14.2,68,51.0,35,2880.0,17,55.4,Credit/Debit card,Fashion
+IN00470,Komal Desai,Female,29.0,Bengaluru,Karnataka,Tier 1,5.6,85,38.0,31,800.0,9,99.2,UPI,Beauty & Personal Care
+IN00471,Siddharth Reddy,,29.0,Indore,Madhya Pradesh,Tier 2,3.0,80,13.0,32,880.0,28,,Cash on delivery,Grocery
+IN00472,Shreya Agarwal,Female,24.0,Chandigarh,Chandigarh,Tier 2,7.2,64,25.0,23,770.0,50,58.1,UPI,Fashion
+IN00473,Tanvi Malhotra,Female,42.0,Surat,Gujarat,Tier 2,21.0,68,48.0,41,2380.0,10,81.8,Credit/Debit card,Electronics
+IN00474,Swati Kalita,Female,50.0,Pune,Maharashtra,Tier 1,20.9,67,52.0,33,2670.0,1,71.9,Credit/Debit card,Fashion
+IN00475,Rohan Mehta,Male,46.0,Kochi,Kerala,Tier 2,25.3,34,44.0,6,2820.0,79,45.4,Credit/Debit card,Beauty & Personal Care
+IN00476,Meera Chatterjee,Female,,Guwahati,Assam,Tier 2,24.9,35,22.0,7,3270.0,36,60.1,Credit/Debit card,Electronics
+IN00477,Lakshmi Agarwal,Female,21.0,Siliguri,West Bengal,Tier 3,5.2,75,25.0,25,780.0,1,73.7,Wallet,Fashion
+IN00478,Arjun Kapoor,Male,29.0,Guwahati,Assam,Tier 2,8.1,47,28.0,24,1110.0,16,66.8,UPI,Home & Kitchen
+IN00479,Divya Agarwal,Female,47.0,Jabalpur,Madhya Pradesh,Tier 3,13.9,61,19.0,20,980.0,32,34.3,Wallet,Home & Kitchen
+IN00480,Meera Kapoor,Female,29.0,Chandigarh,Chandigarh,Tier 2,1.9,77,23.0,17,750.0,25,65.6,Cash on delivery,Home & Kitchen
+IN00481,Sneha Patel,Female,29.0,Bengaluru,Karnataka,Tier 1,4.9,73,24.0,33,820.0,1,89.9,UPI,Grocery
+IN00482,Amit Ghosh,Male,38.0,Chandigarh,Chandigarh,Tier 2,26.7,38,34.0,10,3390.0,31,55.8,UPI,Fashion
+IN00483,Vivaan Banerjee,Male,33.0,Guwahati,Assam,Tier 2,8.6,30,5.0,13,1300.0,13,26.2,Credit/Debit card,Home & Kitchen
+IN00484,Vikram Menon,Male,56.0,Bengaluru,Karnataka,Tier 1,19.4,34,27.0,7,3020.0,48,46.8,Credit/Debit card,Grocery
+IN00485,Riya Chatterjee,Female,37.0,Mumbai,Maharashtra,Tier 1,20.7,64,38.0,38,2300.0,8,62.2,UPI,Grocery
+IN00486,Pallavi Agarwal,Female,23.0,Kochi,Kerala,Tier 2,5.5,93,23.0,23,290.0,22,81.4,Wallet,Grocery
+IN00487,Vikram Thakur,Male,33.0,Bengaluru,Karnataka,Tier 1,6.8,83,35.0,31,350.0,16,70.4,UPI,Grocery
+IN00488,Nisha Singh,Female,51.0,Bengaluru,Karnataka,Tier 1,24.3,36,34.0,7,2630.0,46,20.0,Credit/Debit card,Electronics
+IN00489,Lakshmi Chauhan,Female,52.0,Sagar,Madhya Pradesh,Tier 3,12.3,46,49.0,18,1150.0,46,0.0,UPI,Home & Kitchen
+IN00490,Lakshmi Pandey,Female,28.0,Sagar,Madhya Pradesh,Tier 3,13.2,45,22.0,8,1840.0,41,48.7,Cash on delivery,Home & Kitchen
+IN00491,Lakshmi Gupta,Female,42.0,Delhi,Delhi,Tier 1,6.4,61,8.0,12,1190.0,31,35.2,Credit/Debit card,Home & Kitchen
+IN00492,Ananya Singh,Female,53.0,Kochi,Kerala,Tier 2,7.8,50,39.0,16,1280.0,33,57.2,UPI,Fashion
+IN00493,Gaurav Saxena,,19.0,Bhopal,Madhya Pradesh,Tier 2,6.4,70,19.0,17,2170.0,46,14.5,Credit/Debit card,Fashion
+IN00494,Abhishek Mehta,Male,35.0,Hyderabad,Telangana,Tier 1,26.1,33,22.0,7,2470.0,54,20.1,UPI,Home & Kitchen
+IN00495,Rahul Joshi,,61.0,Mumbai,Maharashtra,Tier 1,5.9,57,41.0,15,1230.0,18,38.4,UPI,Grocery
+IN00496,Sunita Das,Female,37.0,Surat,Gujarat,Tier 2,10.7,45,19.0,16,1490.0,38,58.5,UPI,Grocery
+IN00497,Pranav Agarwal,Male,21.0,Indore,Madhya Pradesh,Tier 2,4.4,92,30.0,32,,19,78.9,UPI,Electronics
+IN00498,Vikram Yadav,Male,42.0,Mysuru,Karnataka,Tier 3,8.5,53,22.0,15,1530.0,45,31.5,Cash on delivery,Home & Kitchen
+IN00499,Nikhil Desai,Male,,Ujjain,Madhya Pradesh,Tier 3,6.5,81,10.0,34,620.0,9,72.3,Cash on delivery,Home & Kitchen
+IN00500,Sneha Mishra,Female,36.0,Ujjain,Madhya Pradesh,Tier 3,5.3,79,27.0,23,730.0,26,97.4,UPI,Home & Kitchen
+IN00501,Rohan Sharma,Male,47.0,Lucknow,Uttar Pradesh,Tier 2,9.1,46,32.0,14,5460.0,8,57.4,UPI,Electronics
+IN00502,Nisha Yadav,Female,57.0,Sagar,Madhya Pradesh,Tier 3,4.2,5,42.0,6,690.0,207,3.0,Cash on delivery,Grocery
+IN00503,Rahul Verma,Male,45.0,Delhi,Delhi,Tier 1,5.1,22,47.0,5,920.0,159,11.3,Wallet,Fashion
+IN00504,Siddharth Menon,Male,,Hyderabad,Telangana,Tier 1,2.6,69,28.0,30,,4,84.6,UPI,Home & Kitchen
+IN00505,Siddharth Singh,Male,24.0,Bhopal,Madhya Pradesh,Tier 2,2.5,78,23.0,40,870.0,30,86.0,UPI,Home & Kitchen
+IN00506,Aarav Nair,Male,48.0,Delhi,Delhi,Tier 1,10.4,59,35.0,14,1400.0,45,40.0,UPI,Electronics
+IN00507,Arjun Yadav,Male,58.0,Indore,Madhya Pradesh,Tier 2,28.1,28,19.0,4,1730.0,86,48.0,Credit/Debit card,Electronics
+IN00508,Nikhil Iyer,Male,44.0,Siliguri,West Bengal,Tier 3,4.4,35,37.0,13,1370.0,10,49.4,UPI,Home & Kitchen
+IN00509,Anjali Bora,Female,28.0,Chennai,Tamil Nadu,Tier 1,7.0,78,30.0,40,880.0,14,46.0,UPI,Beauty & Personal Care
+IN00510,Isha Yadav,Female,36.0,Ujjain,Madhya Pradesh,Tier 3,24.9,81,47.0,42,2230.0,15,55.1,Credit/Debit card,Beauty & Personal Care
+IN00511,Pranav Tiwari,Male,29.0,Chennai,Tamil Nadu,Tier 1,24.5,90,26.0,32,1700.0,3,55.5,Credit/Debit card,Electronics
+IN00512,Sandeep Gupta,Male,58.0,Udaipur,Rajasthan,Tier 3,1.5,23,,3,770.0,309,33.3,UPI,Grocery
+IN00513,Gaurav Thakur,Male,36.0,Delhi,Delhi,Tier 1,16.3,80,,32,1410.0,17,66.9,UPI,Beauty & Personal Care
+IN00514,Divya Kapoor,Female,67.0,Mumbai,Maharashtra,Tier 1,20.0,27,43.0,9,2750.0,66,19.8,Credit/Debit card,Home & Kitchen
+IN00515,Abhishek Patel,Male,27.0,Bengaluru,Karnataka,Tier 1,7.2,64,22.0,36,480.0,4,77.2,UPI,Grocery
+IN00516,Lakshmi Agarwal,Female,25.0,Kochi,Kerala,Tier 2,19.7,60,54.0,28,2270.0,19,70.8,Credit/Debit card,Fashion
+IN00517,Aditi Pillai,Female,56.0,Indore,Madhya Pradesh,Tier 2,22.3,24,29.0,3,4100.0,75,36.6,Credit/Debit card,Electronics
+IN00518,Isha Shah,Female,51.0,Mumbai,Maharashtra,Tier 1,12.2,41,27.0,16,1340.0,33,60.7,Cash on delivery,Electronics
+IN00519,Aditi Ghosh,Female,,Hyderabad,Telangana,Tier 1,15.2,78,45.0,29,2430.0,13,,Credit/Debit card,Fashion
+IN00520,Karan Kapoor,Male,46.0,Gwalior,Madhya Pradesh,Tier 3,8.1,55,34.0,17,1100.0,18,67.2,Credit/Debit card,Home & Kitchen
+IN00521,Divya Rao,Female,62.0,Kochi,Kerala,Tier 2,5.3,12,39.0,3,590.0,124,56.5,Wallet,Beauty & Personal Care
+IN00522,Anjali Ghosh,Female,18.0,Chandigarh,Chandigarh,Tier 2,5.6,73,22.0,32,700.0,34,100.0,UPI,Beauty & Personal Care
+IN00523,Mohit Nair,Male,40.0,Chennai,Tamil Nadu,Tier 1,18.1,79,25.0,23,1760.0,1,62.5,Credit/Debit card,Home & Kitchen
+IN00524,Rekha Thakur,Female,59.0,Hyderabad,Telangana,Tier 1,10.3,63,37.0,16,1410.0,56,51.7,Wallet,Fashion
+IN00525,Neha Shah,Female,49.0,Bengaluru,Karnataka,Tier 1,15.3,99,,41,2380.0,2,31.5,Credit/Debit card,Home & Kitchen
+IN00526,Pooja Pillai,Female,21.0,Lucknow,Uttar Pradesh,Tier 2,7.7,75,21.0,24,480.0,17,93.9,UPI,Fashion
+IN00527,Meera Ghosh,Female,47.0,Gwalior,Madhya Pradesh,Tier 3,7.6,29,34.0,4,820.0,217,33.0,Cash on delivery,Grocery
+IN00528,Karan Gupta,Male,52.0,Gwalior,Madhya Pradesh,Tier 3,8.7,22,70.0,7,920.0,96,40.5,Cash on delivery,Beauty & Personal Care
+IN00529,Ritu Kapoor,Female,46.0,Jabalpur,Madhya Pradesh,Tier 3,10.6,26,30.0,9,2010.0,18,35.3,UPI,Grocery
+IN00530,Isha Iyer,Female,60.0,Indore,Madhya Pradesh,Tier 2,10.5,15,54.0,7,2320.0,39,44.6,UPI,Fashion
+IN00531,Rekha Shah,Female,,Chandigarh,Chandigarh,Tier 2,12.4,65,26.0,10,1720.0,10,41.8,Cash on delivery,Grocery
+IN00532,Isha Kapoor,Female,50.0,Guwahati,Assam,Tier 2,8.7,48,11.0,17,1410.0,37,61.5,Credit/Debit card,Electronics
+IN00533,Kavya Reddy,Female,26.0,Ujjain,Madhya Pradesh,Tier 3,6.9,82,2.0,34,610.0,37,,Credit/Debit card,Grocery
+IN00534,Nisha Menon,Female,23.0,Bhopal,Madhya Pradesh,Tier 2,3.7,29,35.0,22,1600.0,29,31.6,UPI,Fashion
+IN00535,Tanvi Yadav,Female,60.0,Ahmedabad,Gujarat,Tier 1,25.3,67,53.0,49,2430.0,27,65.2,UPI,Home & Kitchen
+IN00536,Pooja Bora,Female,48.0,Indore,Madhya Pradesh,Tier 2,20.9,17,31.0,10,2510.0,58,22.9,Credit/Debit card,Electronics
+IN00537,Nikhil Saxena,Male,24.0,Sagar,Madhya Pradesh,Tier 3,6.2,83,19.0,29,710.0,30,74.2,UPI,Home & Kitchen
+IN00538,Neha Agarwal,Female,33.0,Mumbai,Maharashtra,Tier 1,19.6,76,38.0,46,1320.0,8,73.4,UPI,Fashion
+IN00539,Shreya Thakur,Female,49.0,Indore,Madhya Pradesh,Tier 2,17.0,95,44.0,25,1940.0,1,57.8,UPI,Home & Kitchen
+IN00540,Arjun Sharma,Male,67.0,Pune,Maharashtra,Tier 1,9.1,17,29.0,16,1000.0,12,46.8,UPI,Electronics
+IN00541,Swati Iyer,,44.0,Jabalpur,Madhya Pradesh,Tier 3,1.7,32,40.0,2,800.0,154,24.9,Cash on delivery,Fashion
+IN00542,Deepak Sharma,Male,35.0,Jaipur,Rajasthan,Tier 2,9.5,33,23.0,13,1210.0,43,43.1,Cash on delivery,Electronics
+IN00543,Sunita Mehta,Female,,Gwalior,Madhya Pradesh,Tier 3,6.4,50,,16,1630.0,5,48.1,UPI,Electronics
+IN00544,Meera Joshi,Female,42.0,Jaipur,Rajasthan,Tier 2,3.9,24,51.0,3,530.0,104,22.3,Wallet,Grocery
+IN00545,Manoj Bora,,40.0,Patna,Bihar,Tier 2,23.4,84,27.0,41,2600.0,22,89.2,UPI,Electronics
+IN00546,Nisha Jain,Female,27.0,Jaipur,Rajasthan,Tier 2,3.4,72,14.0,33,150.0,10,63.6,UPI,Grocery
+IN00547,Pallavi Reddy,Female,33.0,Jabalpur,Madhya Pradesh,Tier 3,8.1,83,9.0,26,1130.0,17,98.5,Cash on delivery,Fashion
+IN00548,Gaurav Thakur,Male,37.0,Kolkata,West Bengal,Tier 1,8.2,85,34.0,46,2590.0,12,48.8,Wallet,Electronics
+IN00549,Sandeep Ghosh,Male,41.0,Gwalior,Madhya Pradesh,Tier 3,9.4,49,11.0,9,1820.0,19,31.8,Credit/Debit card,Home & Kitchen
+IN00550,Komal Iyer,Female,24.0,Lucknow,Uttar Pradesh,Tier 2,6.0,76,33.0,29,760.0,19,,UPI,Grocery
+IN00551,Rohan Agarwal,Male,20.0,Surat,Gujarat,Tier 2,4.3,49,25.0,31,530.0,33,68.8,UPI,Electronics
+IN00552,Ritu Verma,Female,41.0,Kochi,Kerala,Tier 2,8.9,81,40.0,33,1820.0,21,65.3,UPI,Fashion
+IN00553,Deepak Bora,Male,32.0,Bengaluru,Karnataka,Tier 1,21.4,23,19.0,9,5030.0,85,24.6,Credit/Debit card,Fashion
+IN00554,Pallavi Malhotra,Female,63.0,Nagpur,Maharashtra,Tier 2,3.8,12,32.0,2,630.0,177,31.2,Credit/Debit card,Beauty & Personal Care
+IN00555,Siddharth Verma,Male,38.0,Mumbai,Maharashtra,Tier 1,21.6,83,65.0,37,2480.0,14,61.5,Credit/Debit card,Beauty & Personal Care
+IN00556,Ritu Joshi,Female,30.0,Mumbai,Maharashtra,Tier 1,18.9,28,45.0,10,3090.0,85,38.6,UPI,Electronics
+IN00557,Pranav Pillai,Male,49.0,Pune,Maharashtra,Tier 1,24.8,39,38.0,8,,52,47.6,Credit/Debit card,Home & Kitchen
+IN00558,Rekha Nair,Female,28.0,Sagar,Madhya Pradesh,Tier 3,3.8,73,20.0,31,1040.0,22,78.4,Cash on delivery,Beauty & Personal Care
+IN00559,Rahul Kapoor,Male,52.0,Delhi,Delhi,Tier 1,8.1,57,48.0,22,1030.0,26,16.7,Credit/Debit card,Fashion
+IN00560,Gaurav Pandey,Male,24.0,Pune,Maharashtra,Tier 1,5.5,89,15.0,33,580.0,20,46.7,Wallet,Electronics
+IN00561,Vivaan Reddy,Male,39.0,Kochi,Kerala,Tier 2,18.3,87,39.0,22,2910.0,16,60.5,UPI,Fashion
+IN00562,Sanjay Malhotra,Male,42.0,Patna,Bihar,Tier 2,23.7,26,39.0,12,4110.0,74,55.9,UPI,Fashion
+IN00563,Rekha Bora,Female,47.0,Jaipur,Rajasthan,Tier 2,5.8,25,50.0,1,,168,20.1,Cash on delivery,Beauty & Personal Care
+IN00564,Manoj Singh,Male,34.0,Indore,Madhya Pradesh,Tier 2,5.6,44,28.0,16,1130.0,47,59.4,UPI,Grocery
+IN00565,Sunita Tiwari,Female,47.0,Gwalior,Madhya Pradesh,Tier 3,10.7,38,32.0,12,2060.0,54,67.4,Wallet,Fashion
+IN00566,Aarav Mishra,Male,38.0,Mysuru,Karnataka,Tier 3,7.6,45,23.0,14,1330.0,52,17.7,Cash on delivery,Beauty & Personal Care
+IN00567,Vikram Malhotra,Male,57.0,Surat,Gujarat,Tier 2,8.0,50,8.0,12,1940.0,33,56.6,UPI,Home & Kitchen
+IN00568,Ritu Nair,Female,35.0,Hyderabad,Telangana,Tier 1,19.1,73,57.0,38,2790.0,15,60.3,UPI,Home & Kitchen
+IN00569,Tanvi Patel,Female,25.0,Guwahati,Assam,Tier 2,2.0,61,23.0,27,680.0,16,65.0,UPI,Fashion
+IN00570,Harsh Malhotra,Male,24.0,Siliguri,West Bengal,Tier 3,6.3,79,29.0,22,550.0,17,78.4,UPI,Grocery
+IN00571,Rohan Jain,Male,39.0,Patna,Bihar,Tier 2,3.3,94,13.0,40,980.0,31,88.1,Cash on delivery,Electronics
+IN00572,Rahul Banerjee,Male,29.0,Bhopal,Madhya Pradesh,Tier 2,3.1,26,18.0,5,540.0,151,,Cash on delivery,Electronics
+IN00573,Vivaan Malhotra,Male,18.0,Udaipur,Rajasthan,Tier 3,5.7,70,20.0,45,630.0,18,54.7,Wallet,Fashion
+IN00574,Sunita Mishra,,45.0,Bengaluru,Karnataka,Tier 1,7.8,53,26.0,22,1370.0,1,69.5,Credit/Debit card,Beauty & Personal Care
+IN00575,Harsh Joshi,Male,71.0,Patna,Bihar,Tier 2,8.9,17,33.0,4,,214,5.9,Cash on delivery,Home & Kitchen
+IN00576,Pranav Shah,Male,24.0,Bhopal,Madhya Pradesh,Tier 2,4.1,78,28.0,33,680.0,14,73.4,UPI,Grocery
+IN00577,Manoj Pandey,Male,45.0,Hyderabad,Telangana,Tier 1,5.6,9,22.0,7,850.0,139,43.3,Cash on delivery,Beauty & Personal Care
+IN00578,Rohan Mishra,Male,50.0,Gwalior,Madhya Pradesh,Tier 3,12.1,41,32.0,14,1390.0,41,60.7,UPI,Beauty & Personal Care
+IN00579,Mohit Shah,Male,51.0,Delhi,Delhi,Tier 1,5.3,22,31.0,6,990.0,180,30.6,UPI,Home & Kitchen
+IN00580,Sandeep Bora,Male,26.0,Siliguri,West Bengal,Tier 3,4.5,65,3.0,22,890.0,12,90.1,UPI,Grocery
+IN00581,Deepak Ghosh,Male,21.0,Bengaluru,Karnataka,Tier 1,3.6,94,,25,770.0,12,60.6,UPI,Fashion
+IN00582,Mohit Desai,Male,31.0,Ahmedabad,Gujarat,Tier 1,4.7,77,16.0,33,640.0,4,80.8,UPI,Grocery
+IN00583,Sanjay Joshi,Male,27.0,Guwahati,Assam,Tier 2,12.0,88,40.0,29,,18,63.6,UPI,Grocery
+IN00584,Anjali Yadav,Female,31.0,Surat,Gujarat,Tier 2,8.4,78,19.0,38,870.0,10,78.8,Wallet,Grocery
+IN00585,Meera Tiwari,Female,69.0,Siliguri,West Bengal,Tier 3,,13,59.0,9,540.0,202,26.8,UPI,Grocery
+IN00586,Gaurav Chatterjee,Male,19.0,Lucknow,Uttar Pradesh,Tier 2,8.9,60,36.0,16,1190.0,57,42.5,Credit/Debit card,Electronics
+IN00587,Deepak Iyer,Male,26.0,Delhi,Delhi,Tier 1,17.9,68,51.0,37,2170.0,30,74.7,UPI,Home & Kitchen
+IN00588,Rohan Banerjee,Male,,Ujjain,Madhya Pradesh,Tier 3,7.5,92,15.0,23,1160.0,33,98.6,Cash on delivery,Home & Kitchen
+IN00589,Nikhil Kulkarni,Male,39.0,Gwalior,Madhya Pradesh,Tier 3,12.7,35,44.0,11,4130.0,125,49.1,UPI,Fashion
+IN00590,Nisha Chatterjee,Female,43.0,Pune,Maharashtra,Tier 1,27.0,83,46.0,25,2090.0,20,82.7,Credit/Debit card,Home & Kitchen
+IN00591,Riya Ghosh,Female,52.0,Ahmedabad,Gujarat,Tier 1,5.5,30,31.0,4,610.0,98,,Credit/Debit card,Fashion
+IN00592,Ankit Desai,Male,24.0,Mumbai,Maharashtra,Tier 1,5.6,85,21.0,29,710.0,16,75.2,UPI,Electronics
+IN00593,Vivaan Banerjee,Male,,Hyderabad,Telangana,Tier 1,25.1,36,22.0,9,2380.0,70,41.1,Wallet,Fashion
+IN00594,Tanvi Chatterjee,Female,40.0,Indore,Madhya Pradesh,Tier 2,9.2,43,26.0,18,1630.0,54,33.0,UPI,Home & Kitchen
+IN00595,Aditi Verma,Female,36.0,Delhi,Delhi,Tier 1,21.7,82,60.0,40,2630.0,1,62.0,Wallet,Beauty & Personal Care
+IN00596,Priya Rao,Female,53.0,Mysuru,Karnataka,Tier 3,19.4,24,28.0,11,3420.0,53,,Credit/Debit card,Fashion
+IN00597,Rekha Kulkarni,Female,45.0,Siliguri,West Bengal,Tier 3,7.9,40,2.0,11,1780.0,42,51.5,UPI,Electronics
+IN00598,Gaurav Bora,Male,43.0,Hyderabad,Telangana,Tier 1,10.2,44,10.0,16,940.0,17,54.5,UPI,Beauty & Personal Care
+IN00599,Neha Kalita,Female,51.0,Chandigarh,Chandigarh,Tier 2,6.3,18,51.0,3,1140.0,131,15.3,Cash on delivery,Fashion
+IN00600,Anjali Nair,Female,51.0,Dehradun,Uttarakhand,Tier 3,12.4,62,53.0,16,,27,51.7,UPI,Grocery
+IN00601,Nikhil Iyer,Male,25.0,Udaipur,Rajasthan,Tier 3,,69,37.0,31,670.0,25,75.9,Credit/Debit card,Fashion
+IN00602,Gaurav Desai,Male,,Ahmedabad,Gujarat,Tier 1,10.6,49,15.0,7,1620.0,64,46.8,UPI,Grocery
+IN00603,Harsh Gupta,Male,41.0,Udaipur,Rajasthan,Tier 3,4.0,35,63.0,1,710.0,167,48.0,Cash on delivery,Grocery
+IN00604,Pallavi Mishra,Female,41.0,Siliguri,West Bengal,Tier 3,,42,45.0,16,1250.0,14,30.5,UPI,Beauty & Personal Care
+IN00605,Ritu Iyer,Female,37.0,Pune,Maharashtra,Tier 1,2.8,4,40.0,5,760.0,193,26.9,Cash on delivery,Grocery
+IN00606,Ritu Mehta,Female,53.0,Gwalior,Madhya Pradesh,Tier 3,10.5,60,17.0,15,1130.0,18,57.6,Wallet,Home & Kitchen
+IN00607,Rajesh Banerjee,Male,,Pune,Maharashtra,Tier 1,4.3,22,55.0,4,710.0,229,34.2,Cash on delivery,Fashion
+IN00608,Tanvi Kapoor,Female,33.0,Delhi,Delhi,Tier 1,18.8,74,41.0,43,2500.0,16,74.2,Credit/Debit card,Fashion
+IN00609,Manoj Yadav,Male,18.0,Sagar,Madhya Pradesh,Tier 3,,74,26.0,16,,49,58.5,UPI,Beauty & Personal Care
+IN00610,Aarav Banerjee,Male,25.0,Surat,Gujarat,Tier 2,6.5,72,17.0,35,680.0,1,88.3,Cash on delivery,Beauty & Personal Care
+IN00611,Harsh Menon,Male,47.0,Dehradun,Uttarakhand,Tier 3,6.8,52,36.0,15,1690.0,29,53.6,UPI,Fashion
+IN00612,Pallavi Gupta,Female,38.0,Sagar,Madhya Pradesh,Tier 3,8.5,64,18.0,16,1140.0,17,52.0,UPI,Electronics
+IN00613,Kavya Shah,Female,57.0,Jaipur,Rajasthan,Tier 2,9.9,32,48.0,5,1030.0,155,16.8,Cash on delivery,Electronics
+IN00614,Vikram Das,Male,56.0,Surat,Gujarat,Tier 2,6.8,14,42.0,2,1040.0,151,29.6,UPI,Grocery
+IN00615,Isha Ghosh,Female,34.0,Hyderabad,Telangana,Tier 1,26.4,31,28.0,10,2310.0,66,23.9,Credit/Debit card,Home & Kitchen
+IN00616,Mohit Sharma,Male,32.0,Delhi,Delhi,Tier 1,7.2,61,47.0,22,1370.0,58,80.2,Credit/Debit card,Electronics
+IN00617,Lakshmi Kalita,Female,44.0,Ujjain,Madhya Pradesh,Tier 3,6.3,43,29.0,9,880.0,42,38.8,UPI,Grocery
+IN00618,Mohit Pandey,Male,26.0,Bhopal,Madhya Pradesh,Tier 2,7.0,83,23.0,28,910.0,24,62.1,UPI,Grocery
+IN00619,Rajesh Thakur,Male,38.0,Pune,Maharashtra,Tier 1,16.0,80,26.0,31,2710.0,21,51.5,UPI,Fashion
+IN00620,Ritu Desai,Female,,Nagpur,Maharashtra,Tier 2,16.2,74,29.0,28,2470.0,22,73.5,Credit/Debit card,Grocery
+IN00621,Ankit Singh,Male,53.0,Jabalpur,Madhya Pradesh,Tier 3,4.3,50,34.0,13,990.0,29,73.1,Credit/Debit card,Grocery
+IN00622,Arjun Rao,Male,25.0,Bhopal,Madhya Pradesh,Tier 2,3.5,72,38.0,21,530.0,16,75.3,Cash on delivery,Fashion
+IN00623,Karan Pillai,Male,48.0,Patna,Bihar,Tier 2,6.0,20,51.0,5,1030.0,126,9.4,Cash on delivery,Grocery
+IN00624,Ananya Chatterjee,Female,28.0,Delhi,Delhi,Tier 1,4.9,57,15.0,34,590.0,13,72.5,UPI,Beauty & Personal Care
+IN00625,Priya Mishra,Female,53.0,Sagar,Madhya Pradesh,Tier 3,3.5,18,68.0,4,760.0,180,31.5,Cash on delivery,Grocery
+IN00626,Manoj Kalita,Male,31.0,Gwalior,Madhya Pradesh,Tier 3,1.7,77,36.0,37,340.0,20,76.3,UPI,Fashion
+IN00627,Ananya Shah,Female,51.0,Lucknow,Uttar Pradesh,Tier 2,5.6,36,25.0,18,1340.0,18,36.8,Credit/Debit card,Electronics
+IN00628,Arjun Shah,Male,39.0,Chandigarh,Chandigarh,Tier 2,8.4,70,41.0,21,2810.0,9,50.6,UPI,Electronics
+IN00629,Aditi Chatterjee,Female,,Lucknow,Uttar Pradesh,Tier 2,8.4,48,36.0,17,,66,70.0,UPI,Home & Kitchen
+IN00630,Abhishek Menon,Male,50.0,Mumbai,Maharashtra,Tier 1,8.8,43,47.0,17,960.0,35,72.2,Wallet,Electronics
+IN00631,Meera Rao,Female,35.0,Mumbai,Maharashtra,Tier 1,7.3,16,30.0,4,530.0,152,35.6,Cash on delivery,Grocery
+IN00632,Nikhil Agarwal,Male,50.0,Patna,Bihar,Tier 2,7.0,46,26.0,29,1050.0,56,44.7,UPI,Home & Kitchen
+IN00633,Sunita Yadav,Female,33.0,Delhi,Delhi,Tier 1,19.2,77,31.0,34,2450.0,21,78.4,Cash on delivery,Fashion
+IN00634,Divya Singh,Female,19.0,Guwahati,Assam,Tier 2,7.0,63,20.0,30,410.0,13,88.2,UPI,Home & Kitchen
+IN00635,Pooja Menon,Female,48.0,Udaipur,Rajasthan,Tier 3,21.8,70,54.0,32,2790.0,19,95.2,Credit/Debit card,Fashion
+IN00636,Abhishek Thakur,Male,51.0,Indore,Madhya Pradesh,Tier 2,10.9,83,41.0,25,2840.0,33,60.2,UPI,Electronics
+IN00637,Riya Verma,Female,40.0,Ujjain,Madhya Pradesh,Tier 3,9.2,42,49.0,18,930.0,48,79.9,Credit/Debit card,Beauty & Personal Care
+IN00638,Aarav Jain,Male,34.0,Indore,Madhya Pradesh,Tier 2,7.9,47,21.0,21,1460.0,27,58.4,UPI,Grocery
+IN00639,Nisha Banerjee,Female,35.0,Bhopal,Madhya Pradesh,Tier 2,11.7,56,37.0,13,610.0,27,34.2,Credit/Debit card,Grocery
+IN00640,Amit Gupta,Male,,Delhi,Delhi,Tier 1,2.8,23,26.0,3,1230.0,153,34.8,Cash on delivery,Fashion
+IN00641,Rajesh Pandey,Male,49.0,Nagpur,Maharashtra,Tier 2,8.6,49,34.0,10,950.0,57,43.3,Cash on delivery,Fashion
+IN00642,Riya Malhotra,Female,41.0,Mumbai,Maharashtra,Tier 1,10.7,29,15.0,13,650.0,57,70.4,UPI,Fashion
+IN00643,Lakshmi Bora,Female,42.0,Surat,Gujarat,Tier 2,15.0,70,81.0,39,2000.0,6,29.1,UPI,Fashion
+IN00644,Kavya Sharma,Female,43.0,Pune,Maharashtra,Tier 1,17.6,24,15.0,7,5560.0,72,32.3,UPI,Beauty & Personal Care
+IN00645,Harsh Thakur,Male,31.0,Udaipur,Rajasthan,Tier 3,9.5,42,31.0,19,1450.0,7,66.6,UPI,Home & Kitchen
+IN00646,Vikram Sharma,Male,55.0,Kolkata,West Bengal,Tier 1,,11,25.0,6,3360.0,161,16.4,Wallet,Beauty & Personal Care
+IN00647,Sunita Ghosh,Female,46.0,Chandigarh,Chandigarh,Tier 2,12.8,86,24.0,33,1500.0,8,53.8,UPI,Fashion
+IN00648,Karan Das,Male,20.0,Jabalpur,Madhya Pradesh,Tier 3,8.7,94,36.0,32,550.0,1,84.6,UPI,Home & Kitchen
+IN00649,Deepak Pillai,Male,24.0,Delhi,Delhi,Tier 1,,33,28.0,17,670.0,43,31.0,UPI,Grocery
+IN00650,Pranav Sharma,Male,48.0,Nagpur,Maharashtra,Tier 2,13.7,69,51.0,28,3170.0,10,80.5,UPI,Beauty & Personal Care
+IN00651,Amit Singh,Male,18.0,Guwahati,Assam,Tier 2,5.1,80,27.0,27,640.0,27,69.0,Wallet,Beauty & Personal Care
+IN00652,Manoj Chauhan,Male,73.0,Nagpur,Maharashtra,Tier 2,4.4,20,55.0,8,640.0,190,24.9,Credit/Debit card,Grocery
+IN00653,Ankit Shah,Male,49.0,Kolkata,West Bengal,Tier 1,8.8,53,18.0,17,1310.0,33,47.5,UPI,Fashion
+IN00654,Arjun Tiwari,Male,61.0,Bengaluru,Karnataka,Tier 1,24.2,38,27.0,4,2320.0,66,46.1,Wallet,Fashion
+IN00655,Kavya Bora,Female,53.0,Lucknow,Uttar Pradesh,Tier 2,9.4,25,57.0,2,1110.0,140,38.1,Cash on delivery,Fashion
+IN00656,Amit Joshi,Male,,Lucknow,Uttar Pradesh,Tier 2,1.5,69,23.0,25,1000.0,20,79.6,UPI,Beauty & Personal Care
+IN00657,Mohit Verma,Male,44.0,Siliguri,West Bengal,Tier 3,9.3,19,32.0,5,620.0,130,26.8,Cash on delivery,Grocery
+IN00658,Karan Thakur,Male,37.0,Bhopal,Madhya Pradesh,Tier 2,22.6,32,,9,2760.0,69,45.0,UPI,Home & Kitchen
+IN00659,Aditi Kulkarni,Female,36.0,Kolkata,West Bengal,Tier 1,5.9,56,32.0,14,1870.0,20,53.7,Wallet,Beauty & Personal Care
+IN00660,Suresh Ghosh,Male,28.0,Udaipur,Rajasthan,Tier 3,6.1,71,19.0,36,760.0,15,95.9,UPI,Fashion
+IN00661,Kavya Yadav,Female,55.0,Delhi,Delhi,Tier 1,25.5,15,33.0,10,2770.0,34,8.5,Credit/Debit card,Home & Kitchen
+IN00662,Suresh Shah,Male,52.0,Hyderabad,Telangana,Tier 1,4.6,13,8.0,1,1100.0,184,25.7,Credit/Debit card,Grocery
+IN00663,Sunita Menon,Female,43.0,Bengaluru,Karnataka,Tier 1,24.6,27,14.0,11,2400.0,46,28.2,UPI,Beauty & Personal Care
+IN00664,Vivaan Singh,Male,47.0,Delhi,Delhi,Tier 1,18.2,75,32.0,32,2530.0,8,70.3,Cash on delivery,Electronics
+IN00665,Anjali Chauhan,Female,29.0,Siliguri,West Bengal,Tier 3,3.4,59,14.0,32,470.0,8,68.0,UPI,Home & Kitchen
+IN00666,Priya Chatterjee,Female,44.0,Jabalpur,Madhya Pradesh,Tier 3,8.7,53,30.0,13,6615.0,39,40.9,Credit/Debit card,Home & Kitchen
+IN00667,Rekha Chauhan,Female,53.0,Gwalior,Madhya Pradesh,Tier 3,7.1,41,27.0,14,670.0,15,92.4,Credit/Debit card,Home & Kitchen
+IN00668,Ritu Kalita,Female,50.0,Kochi,Kerala,Tier 2,4.2,29,30.0,5,1120.0,29,58.6,UPI,Grocery
+IN00669,Nisha Pillai,Female,52.0,Lucknow,Uttar Pradesh,Tier 2,22.7,41,11.0,5,4680.0,66,58.1,UPI,Electronics
+IN00670,Arjun Nair,Male,18.0,Dehradun,Uttarakhand,Tier 3,3.8,67,21.0,33,500.0,3,79.7,UPI,Fashion
+IN00671,Manoj Chatterjee,Male,43.0,Chandigarh,Chandigarh,Tier 2,8.6,74,41.0,43,1540.0,5,65.7,Credit/Debit card,Beauty & Personal Care
+IN00672,Deepak Rao,Male,28.0,Hyderabad,Telangana,Tier 1,10.0,53,27.0,19,1400.0,28,54.2,Wallet,Grocery
+IN00673,Aarav Thakur,Male,57.0,Indore,Madhya Pradesh,Tier 2,2.2,27,48.0,1,520.0,138,15.7,UPI,Grocery
+IN00674,Kavya Mehta,Female,41.0,Kolkata,West Bengal,Tier 1,5.6,45,27.0,19,950.0,23,48.9,Cash on delivery,Beauty & Personal Care
+IN00675,Abhishek Bora,Male,39.0,Kochi,Kerala,Tier 2,9.0,37,24.0,10,880.0,28,71.4,Cash on delivery,Fashion
+IN00676,Rohan Verma,Male,37.0,Jaipur,Rajasthan,Tier 2,6.1,88,28.0,39,920.0,20,75.7,UPI,Grocery
+IN00677,Anjali Gupta,Female,53.0,Dehradun,Uttarakhand,Tier 3,5.7,13,39.0,3,900.0,113,46.2,UPI,Grocery
+IN00678,Manoj Rao,,22.0,Gwalior,Madhya Pradesh,Tier 3,5.5,100,20.0,24,880.0,34,77.2,Cash on delivery,Grocery
+IN00679,Gaurav Joshi,Male,43.0,Mysuru,Karnataka,Tier 3,20.8,92,50.0,40,2040.0,1,77.1,Wallet,Beauty & Personal Care
+IN00680,Sandeep Pandey,Male,27.0,Mysuru,Karnataka,Tier 3,,85,17.0,27,660.0,20,58.4,UPI,Fashion
+IN00681,Nikhil Verma,Male,42.0,Kolkata,West Bengal,Tier 1,21.4,83,15.0,35,2790.0,9,69.3,UPI,Fashion
+IN00682,Priya Reddy,Female,57.0,Nagpur,Maharashtra,Tier 2,16.3,24,50.0,5,5540.0,66,41.2,Credit/Debit card,Electronics
+IN00683,Harsh Iyer,Male,29.0,Bengaluru,Karnataka,Tier 1,16.9,78,51.0,40,2260.0,15,80.3,Credit/Debit card,Home & Kitchen
+IN00684,Pallavi Chauhan,Female,31.0,Jaipur,Rajasthan,Tier 2,3.8,77,,31,560.0,4,94.9,UPI,Fashion
+IN00685,Siddharth Das,Male,45.0,Hyderabad,Telangana,Tier 1,10.4,58,30.0,19,1260.0,34,43.4,UPI,Fashion
+IN00686,Meera Patel,Female,20.0,Sagar,Madhya Pradesh,Tier 3,5.2,74,29.0,27,870.0,20,68.7,Credit/Debit card,Fashion
+IN00687,Mohit Thakur,Male,23.0,Bhopal,Madhya Pradesh,Tier 2,4.3,68,31.0,35,450.0,17,90.3,UPI,Fashion
+IN00688,Vivaan Malhotra,Male,40.0,Udaipur,Rajasthan,Tier 3,5.8,11,43.0,1,950.0,219,12.7,Cash on delivery,Home & Kitchen
+IN00689,Rekha Jain,,53.0,Sagar,Madhya Pradesh,Tier 3,11.3,59,20.0,12,1730.0,20,68.1,UPI,Beauty & Personal Care
+IN00690,Sunita Banerjee,Female,28.0,Kolkata,West Bengal,Tier 1,7.1,60,60.0,17,1510.0,59,20.0,UPI,Beauty & Personal Care
+IN00691,Meera Pillai,Female,54.0,Mumbai,Maharashtra,Tier 1,16.6,30,29.0,9,3220.0,56,18.7,UPI,Electronics
+IN00692,Deepak Pandey,Male,37.0,Mumbai,Maharashtra,Tier 1,7.1,13,32.0,4,1400.0,145,39.8,UPI,Fashion
+IN00693,Sanjay Pandey,Male,55.0,Bengaluru,Karnataka,Tier 1,21.1,31,22.0,8,,66,75.3,Credit/Debit card,Home & Kitchen
+IN00694,Neha Nair,Female,27.0,Gwalior,Madhya Pradesh,Tier 3,3.0,99,14.0,29,730.0,27,70.5,Cash on delivery,Fashion
+IN00695,Harsh Nair,Male,56.0,Dehradun,Uttarakhand,Tier 3,7.3,25,55.0,6,560.0,140,40.6,Credit/Debit card,Electronics
+IN00696,Nikhil Yadav,Male,43.0,Ujjain,Madhya Pradesh,Tier 3,4.4,76,14.0,24,1100.0,24,70.5,UPI,Beauty & Personal Care
+IN00697,Swati Nair,Female,47.0,Jaipur,Rajasthan,Tier 2,9.0,43,11.0,14,1050.0,42,41.8,UPI,Grocery
+IN00698,Sandeep Jain,Male,51.0,Nagpur,Maharashtra,Tier 2,9.5,63,21.0,23,1550.0,62,68.9,UPI,Fashion
+IN00699,Pooja Mehta,Female,39.0,Guwahati,Assam,Tier 2,12.9,45,22.0,13,510.0,33,78.3,UPI,Electronics
+IN00700,Pallavi Reddy,Female,37.0,Lucknow,Uttar Pradesh,Tier 2,24.0,17,27.0,2,1810.0,72,39.6,UPI,Home & Kitchen
+IN00701,Aditi Reddy,Female,57.0,Delhi,Delhi,Tier 1,21.0,31,12.0,9,3400.0,92,45.8,Credit/Debit card,Electronics
+IN00702,Komal Patel,Female,,Dehradun,Uttarakhand,Tier 3,5.6,99,23.0,30,690.0,1,92.6,UPI,Grocery
+IN00703,Pranav Chauhan,Male,44.0,Bengaluru,Karnataka,Tier 1,,84,75.0,28,2140.0,8,75.8,UPI,Grocery
+IN00704,Rajesh Sharma,Male,67.0,Guwahati,Assam,Tier 2,5.1,23,45.0,1,1110.0,163,,Cash on delivery,Fashion
+IN00705,Shreya Bora,,39.0,Mumbai,Maharashtra,Tier 1,27.1,13,,2,3350.0,68,46.0,Credit/Debit card,Electronics
+IN00706,Rahul Banerjee,Male,40.0,Chandigarh,Chandigarh,Tier 2,5.3,57,52.0,16,1040.0,27,36.1,UPI,Home & Kitchen
+IN00707,Komal Kalita,Female,45.0,Hyderabad,Telangana,Tier 1,6.7,44,12.0,18,1010.0,61,34.0,UPI,Home & Kitchen
+IN00708,Aditi Ghosh,Female,44.0,Chennai,Tamil Nadu,Tier 1,16.0,48,33.0,11,1330.0,26,60.2,UPI,Electronics
+IN00709,Suresh Pillai,Male,36.0,Mysuru,Karnataka,Tier 3,4.7,92,34.0,31,490.0,23,89.9,Cash on delivery,Home & Kitchen
+IN00710,Abhishek Thakur,Male,33.0,Siliguri,West Bengal,Tier 3,2.5,61,30.0,36,730.0,8,80.5,Cash on delivery,Beauty & Personal Care
+IN00711,Amit Rao,Male,54.0,Ujjain,Madhya Pradesh,Tier 3,6.6,27,49.0,3,750.0,138,11.7,Credit/Debit card,Grocery
+IN00712,Priya Kapoor,Female,47.0,Kolkata,West Bengal,Tier 1,8.3,23,31.0,15,1230.0,32,38.8,UPI,Fashion
+IN00713,Isha Ghosh,Female,47.0,Chennai,Tamil Nadu,Tier 1,4.3,47,32.0,14,1250.0,46,45.2,UPI,Home & Kitchen
+IN00714,Nisha Mishra,Female,61.0,Bengaluru,Karnataka,Tier 1,4.1,18,42.0,3,440.0,147,0.4,Cash on delivery,Grocery
+IN00715,Amit Singh,Male,31.0,Ujjain,Madhya Pradesh,Tier 3,7.5,51,43.0,12,1240.0,16,65.8,UPI,Home & Kitchen
+IN00716,Nisha Shah,Female,49.0,Chandigarh,Chandigarh,Tier 2,22.6,20,25.0,5,3080.0,80,34.5,Credit/Debit card,Home & Kitchen
+IN00717,Rahul Sharma,Male,51.0,Ahmedabad,Gujarat,Tier 1,2.1,45,43.0,13,1310.0,46,40.2,Credit/Debit card,Grocery
+IN00718,Riya Shah,Female,27.0,Jabalpur,Madhya Pradesh,Tier 3,13.5,61,42.0,36,3100.0,27,84.8,Credit/Debit card,Grocery
+IN00719,Aditi Gupta,Female,53.0,Chandigarh,Chandigarh,Tier 2,9.6,69,23.0,21,1490.0,44,14.6,Credit/Debit card,Grocery
+IN00720,Neha Singh,Female,63.0,Mysuru,Karnataka,Tier 3,6.6,14,48.0,7,720.0,169,20.8,Credit/Debit card,Home & Kitchen
+IN00721,Sanjay Shah,,28.0,Ujjain,Madhya Pradesh,Tier 3,6.8,71,9.0,32,560.0,4,87.1,Cash on delivery,Home & Kitchen
+IN00722,Suresh Jain,Male,20.0,Chennai,Tamil Nadu,Tier 1,1.5,71,18.0,33,370.0,16,74.5,UPI,Electronics
+IN00723,Aarav Kalita,Male,32.0,Hyderabad,Telangana,Tier 1,,80,52.0,37,1880.0,12,67.4,UPI,Fashion
+IN00724,Rahul Menon,Male,56.0,Mysuru,Karnataka,Tier 3,4.5,28,47.0,5,750.0,146,37.9,UPI,Fashion
+IN00725,Karan Pillai,Male,48.0,Bhopal,Madhya Pradesh,Tier 2,5.5,98,62.0,33,2000.0,22,75.6,UPI,Fashion
+IN00726,Aditi Yadav,Female,45.0,Guwahati,Assam,Tier 2,16.4,81,46.0,39,2510.0,14,57.4,Credit/Debit card,Fashion
+IN00727,Siddharth Saxena,Male,,Delhi,Delhi,Tier 1,19.2,36,,12,3780.0,56,29.1,UPI,Home & Kitchen
+IN00728,Karan Joshi,Male,50.0,Jabalpur,Madhya Pradesh,Tier 3,12.7,81,40.0,31,2600.0,19,53.0,UPI,Grocery
+IN00729,Nikhil Reddy,Male,32.0,Guwahati,Assam,Tier 2,4.2,77,12.0,32,790.0,22,77.9,UPI,Beauty & Personal Care
+IN00730,Anjali Menon,Female,18.0,Guwahati,Assam,Tier 2,3.9,77,18.0,29,870.0,2,70.1,Cash on delivery,Home & Kitchen
+IN00731,Rekha Rao,Female,51.0,Indore,Madhya Pradesh,Tier 2,22.6,29,31.0,13,3920.0,84,71.8,Credit/Debit card,Electronics
+IN00732,Suresh Pillai,,36.0,Chennai,Tamil Nadu,Tier 1,21.6,85,16.0,40,2650.0,14,87.6,Credit/Debit card,Beauty & Personal Care
+IN00733,Sneha Gupta,Female,29.0,Kochi,Kerala,Tier 2,15.0,88,57.0,40,2860.0,23,65.2,Credit/Debit card,Grocery
+IN00734,Priya Singh,Female,36.0,Hyderabad,Telangana,Tier 1,5.3,100,34.0,26,590.0,25,88.8,UPI,Home & Kitchen
+IN00735,Rekha Verma,Female,36.0,Sagar,Madhya Pradesh,Tier 3,19.8,62,46.0,16,2500.0,12,74.1,UPI,Home & Kitchen
+IN00736,Vikram Thakur,Male,43.0,Chennai,Tamil Nadu,Tier 1,11.0,37,30.0,12,1350.0,54,26.6,UPI,Beauty & Personal Care
+IN00737,Swati Menon,Female,50.0,Kolkata,West Bengal,Tier 1,25.1,23,47.0,4,3860.0,79,55.0,Wallet,Home & Kitchen
+IN00738,Abhishek Rao,Male,39.0,Pune,Maharashtra,Tier 1,25.6,30,33.0,7,3350.0,92,,UPI,Electronics
+IN00739,Rahul Gupta,,27.0,Dehradun,Uttarakhand,Tier 3,6.0,67,7.0,32,570.0,26,69.7,Credit/Debit card,Beauty & Personal Care
+IN00740,Gaurav Kulkarni,Male,18.0,Dehradun,Uttarakhand,Tier 3,,80,5.0,28,,18,95.8,UPI,Grocery
+IN00741,Rekha Joshi,Female,39.0,Ahmedabad,Gujarat,Tier 1,20.5,65,34.0,44,2640.0,16,63.9,Cash on delivery,Beauty & Personal Care
+IN00742,Sanjay Agarwal,Male,,Lucknow,Uttar Pradesh,Tier 2,26.3,82,50.0,15,2270.0,15,53.2,Credit/Debit card,Grocery
+IN00743,Komal Agarwal,,45.0,Jabalpur,Madhya Pradesh,Tier 3,6.4,17,26.0,2,490.0,146,13.8,Wallet,Grocery
+IN00744,Isha Singh,Female,47.0,Hyderabad,Telangana,Tier 1,17.1,74,40.0,32,8505.0,10,62.2,Credit/Debit card,Fashion
+IN00745,Ananya Rao,Female,24.0,Nagpur,Maharashtra,Tier 2,3.7,84,13.0,40,620.0,9,74.2,Cash on delivery,Grocery
+IN00746,Rekha Agarwal,Female,30.0,Jaipur,Rajasthan,Tier 2,6.1,78,23.0,38,540.0,8,,UPI,Beauty & Personal Care
+IN00747,Nikhil Das,Male,25.0,Mysuru,Karnataka,Tier 3,5.4,79,26.0,34,450.0,28,87.1,UPI,Grocery
+IN00748,Divya Rao,Female,30.0,Lucknow,Uttar Pradesh,Tier 2,1.9,68,24.0,32,1030.0,3,78.3,UPI,Beauty & Personal Care
+IN00749,Arjun Pandey,Male,26.0,Ujjain,Madhya Pradesh,Tier 3,6.7,44,6.0,18,1200.0,48,50.2,UPI,Electronics
+IN00750,Riya Rao,Female,55.0,Ahmedabad,Gujarat,Tier 1,6.3,22,46.0,3,830.0,120,31.5,Cash on delivery,Electronics
+IN00751,Deepak Verma,Male,35.0,Pune,Maharashtra,Tier 1,33.4,25,40.0,8,2720.0,88,48.6,UPI,Electronics
+IN00752,Siddharth Nair,Male,21.0,Dehradun,Uttarakhand,Tier 3,8.4,79,31.0,29,740.0,29,74.4,UPI,Fashion
+IN00753,Nisha Shah,Female,55.0,Mumbai,Maharashtra,Tier 1,20.7,26,39.0,13,4130.0,85,25.0,Credit/Debit card,Electronics
+IN00754,Rohan Das,Male,18.0,Ujjain,Madhya Pradesh,Tier 3,2.4,83,4.0,22,760.0,16,77.6,Cash on delivery,Fashion
+IN00755,Meera Desai,Female,40.0,Udaipur,Rajasthan,Tier 3,7.8,40,29.0,17,1440.0,54,16.5,UPI,Grocery
+IN00756,Deepak Yadav,Male,49.0,Chennai,Tamil Nadu,Tier 1,23.6,32,37.0,7,3610.0,68,59.2,UPI,Home & Kitchen
+IN00757,Mohit Yadav,Male,,Kochi,Kerala,Tier 2,5.8,81,31.0,29,830.0,17,88.7,UPI,Grocery
+IN00758,Gaurav Shah,Male,65.0,Gwalior,Madhya Pradesh,Tier 3,5.6,9,52.0,7,990.0,113,7.9,Cash on delivery,Grocery
+IN00759,Pooja Kulkarni,Female,35.0,Surat,Gujarat,Tier 2,19.7,92,41.0,43,2450.0,15,83.5,Credit/Debit card,Beauty & Personal Care
+IN00760,Aarav Nair,Male,26.0,Jaipur,Rajasthan,Tier 2,5.7,84,17.0,31,800.0,1,70.0,UPI,Fashion
+IN00761,Aarav Singh,Male,43.0,Sagar,Madhya Pradesh,Tier 3,11.3,44,18.0,8,1590.0,33,44.7,UPI,Grocery
+IN00762,Aarav Jain,Male,41.0,Delhi,Delhi,Tier 1,11.3,77,56.0,34,2510.0,30,70.3,Credit/Debit card,Electronics
+IN00763,Meera Yadav,Female,30.0,Delhi,Delhi,Tier 1,23.4,63,29.0,26,2790.0,10,36.3,Credit/Debit card,Fashion
+IN00764,Ritu Desai,Female,42.0,Delhi,Delhi,Tier 1,14.6,69,,28,2680.0,15,58.8,Credit/Debit card,Electronics
+IN00765,Ankit Yadav,Male,58.0,Dehradun,Uttarakhand,Tier 3,7.1,16,57.0,5,810.0,168,26.5,Cash on delivery,Home & Kitchen
+IN00766,Nikhil Rao,Male,38.0,Bengaluru,Karnataka,Tier 1,15.5,55,28.0,43,2420.0,22,88.7,Credit/Debit card,Beauty & Personal Care
+IN00767,Manoj Banerjee,Male,57.0,Mumbai,Maharashtra,Tier 1,26.1,19,34.0,7,4310.0,76,27.4,Credit/Debit card,Beauty & Personal Care
+IN00768,Amit Iyer,Male,,Delhi,Delhi,Tier 1,17.9,78,39.0,23,2000.0,21,58.8,UPI,Electronics
+IN00769,Nikhil Menon,Male,36.0,Chandigarh,Chandigarh,Tier 2,11.0,78,75.0,44,2430.0,12,35.0,UPI,Electronics
+IN00770,Meera Singh,Female,30.0,Kochi,Kerala,Tier 2,4.6,61,26.0,18,1110.0,22,24.9,UPI,Grocery
+IN00771,Deepak Chatterjee,Male,47.0,Ujjain,Madhya Pradesh,Tier 3,23.9,26,27.0,13,4230.0,97,44.2,Credit/Debit card,Electronics
+IN00772,Shreya Sharma,Female,37.0,Gwalior,Madhya Pradesh,Tier 3,5.7,66,8.0,8,1280.0,67,79.5,Wallet,Beauty & Personal Care
+IN00773,Vivaan Bora,Male,27.0,Patna,Bihar,Tier 2,8.4,42,33.0,18,1710.0,12,89.0,UPI,Grocery
+IN00774,Lakshmi Verma,Female,60.0,Kochi,Kerala,Tier 2,2.4,29,46.0,2,610.0,179,12.8,UPI,Fashion
+IN00775,Sanjay Shah,Male,37.0,Mumbai,Maharashtra,Tier 1,19.0,76,64.0,36,,1,90.4,Credit/Debit card,Fashion
+IN00776,Vivaan Iyer,Male,48.0,Lucknow,Uttar Pradesh,Tier 2,3.4,15,26.0,3,710.0,101,28.8,Cash on delivery,Electronics
+IN00777,Aarav Kalita,Male,47.0,Sagar,Madhya Pradesh,Tier 3,7.1,42,8.0,12,910.0,14,31.0,UPI,Grocery
+IN00778,Pooja Ghosh,Female,36.0,Chennai,Tamil Nadu,Tier 1,22.4,90,49.0,28,2500.0,16,72.2,UPI,Fashion
+IN00779,Arjun Agarwal,Male,43.0,Ujjain,Madhya Pradesh,Tier 3,8.3,37,30.0,15,,43,54.6,Credit/Debit card,Fashion
+IN00780,Sunita Reddy,Female,51.0,Pune,Maharashtra,Tier 1,5.0,28,28.0,4,750.0,199,,UPI,Grocery
+IN00781,Kavya Desai,Female,34.0,Lucknow,Uttar Pradesh,Tier 2,21.5,23,53.0,7,2460.0,54,15.4,UPI,Electronics
+IN00782,Arjun Chauhan,Male,52.0,Kochi,Kerala,Tier 2,2.6,2,33.0,3,800.0,199,12.1,Credit/Debit card,Home & Kitchen
+IN00783,Rahul Sharma,Male,24.0,Indore,Madhya Pradesh,Tier 2,5.5,92,27.0,31,570.0,17,76.5,Wallet,Beauty & Personal Care
+IN00784,Meera Mishra,Female,25.0,Ahmedabad,Gujarat,Tier 1,5.8,64,13.0,9,830.0,59,32.7,Credit/Debit card,Home & Kitchen
+IN00785,Vikram Desai,Male,52.0,Mysuru,Karnataka,Tier 3,4.7,17,43.0,1,1030.0,209,20.1,UPI,Fashion
+IN00786,Neha Chauhan,Female,33.0,Bengaluru,Karnataka,Tier 1,4.1,87,8.0,33,700.0,24,78.1,Cash on delivery,Fashion
+IN00787,Rohan Shah,Male,45.0,Patna,Bihar,Tier 2,9.5,62,18.0,16,1180.0,38,44.4,UPI,Fashion
+IN00788,Pranav Kapoor,Male,56.0,Delhi,Delhi,Tier 1,16.3,12,19.0,10,2450.0,54,9.4,Credit/Debit card,Electronics
+IN00789,Arjun Yadav,Male,40.0,Pune,Maharashtra,Tier 1,8.6,49,42.0,20,970.0,50,,UPI,Fashion
+IN00790,Vivaan Mehta,Male,46.0,Mumbai,Maharashtra,Tier 1,,35,35.0,11,2070.0,5,41.6,Wallet,Grocery
+IN00791,Siddharth Kapoor,Male,44.0,Patna,Bihar,Tier 2,21.4,18,30.0,4,3000.0,75,44.8,Credit/Debit card,Fashion
+IN00792,Vivaan Kulkarni,Male,21.0,Patna,Bihar,Tier 2,6.5,79,20.0,36,600.0,5,88.4,UPI,Home & Kitchen
+IN00793,Rekha Reddy,Female,50.0,Indore,Madhya Pradesh,Tier 2,18.6,40,30.0,7,2750.0,80,27.9,UPI,Electronics
+IN00794,Ritu Mehta,Female,52.0,Guwahati,Assam,Tier 2,19.3,91,35.0,32,3500.0,1,60.9,UPI,Fashion
+IN00795,Karan Pillai,Male,37.0,Kochi,Kerala,Tier 2,10.8,78,41.0,29,2140.0,24,56.4,UPI,Home & Kitchen
+IN00796,Nisha Banerjee,Female,28.0,Ahmedabad,Gujarat,Tier 1,2.2,66,22.0,26,740.0,23,76.8,Wallet,Fashion
+IN00797,Aarav Nair,Male,36.0,Chennai,Tamil Nadu,Tier 1,17.4,61,49.0,42,2610.0,13,78.2,Credit/Debit card,Beauty & Personal Care
+IN00798,Meera Patel,Female,21.0,Jabalpur,Madhya Pradesh,Tier 3,21.3,86,49.0,41,2930.0,20,53.9,UPI,Fashion
+IN00799,Gaurav Verma,Male,37.0,Mysuru,Karnataka,Tier 3,9.5,36,42.0,12,1120.0,28,44.9,UPI,Grocery
+IN00800,Ankit Saxena,Male,33.0,Hyderabad,Telangana,Tier 1,9.5,52,47.0,17,1120.0,7,33.0,Credit/Debit card,Beauty & Personal Care
+IN00801,Vikram Bora,Male,33.0,Dehradun,Uttarakhand,Tier 3,5.4,56,19.0,17,1170.0,47,70.6,Cash on delivery,Home & Kitchen
+IN00802,Vivaan Malhotra,Male,,Jaipur,Rajasthan,Tier 2,15.4,29,35.0,3,4200.0,49,10.2,Credit/Debit card,Fashion
+IN00803,Pallavi Shah,Female,65.0,Indore,Madhya Pradesh,Tier 2,4.8,20,38.0,3,820.0,178,16.0,Cash on delivery,Beauty & Personal Care
+IN00804,Rohan Joshi,Male,36.0,Jabalpur,Madhya Pradesh,Tier 3,10.2,27,46.0,3,,12,0.0,UPI,Home & Kitchen
+IN00805,Komal Desai,Female,31.0,Mumbai,Maharashtra,Tier 1,9.5,85,47.0,24,,5,79.2,Credit/Debit card,Electronics
+IN00806,Suresh Tiwari,Male,36.0,Indore,Madhya Pradesh,Tier 2,13.2,83,48.0,33,3570.0,1,70.1,Credit/Debit card,Fashion
+IN00807,Amit Malhotra,Male,41.0,Bhopal,Madhya Pradesh,Tier 2,8.2,46,10.0,25,1190.0,16,42.0,Credit/Debit card,Electronics
+IN00808,Divya Kapoor,Female,33.0,Mumbai,Maharashtra,Tier 1,21.9,89,,30,2210.0,14,65.7,Credit/Debit card,Fashion
+IN00809,Swati Chauhan,Female,26.0,Hyderabad,Telangana,Tier 1,4.9,72,30.0,26,720.0,19,99.7,UPI,Beauty & Personal Care
+IN00810,Sunita Menon,Female,30.0,Dehradun,Uttarakhand,Tier 3,8.1,35,23.0,7,400.0,194,10.3,UPI,Beauty & Personal Care
+IN00811,Sunita Gupta,Female,49.0,Patna,Bihar,Tier 2,19.2,70,28.0,45,2560.0,12,64.2,UPI,Grocery
+IN00812,Manoj Malhotra,Male,37.0,Sagar,Madhya Pradesh,Tier 3,19.9,98,,27,2000.0,8,59.4,Credit/Debit card,Grocery
+IN00813,Rekha Joshi,Female,53.0,Ujjain,Madhya Pradesh,Tier 3,5.8,12,23.0,3,610.0,263,46.2,UPI,Home & Kitchen
+IN00814,Sanjay Kalita,Male,42.0,Surat,Gujarat,Tier 2,8.6,68,37.0,18,1250.0,43,49.2,UPI,Grocery
+IN00815,Amit Chatterjee,Male,48.0,Indore,Madhya Pradesh,Tier 2,26.4,71,61.0,47,2220.0,13,77.7,Credit/Debit card,Grocery
+IN00816,Manoj Thakur,Male,52.0,Gwalior,Madhya Pradesh,Tier 3,7.6,26,9.0,4,790.0,151,24.6,UPI,Electronics
+IN00817,Sandeep Sharma,Male,39.0,Gwalior,Madhya Pradesh,Tier 3,,29,1.0,4,1030.0,118,0.0,Cash on delivery,Home & Kitchen
+IN00818,Meera Kapoor,Female,18.0,Chandigarh,Chandigarh,Tier 2,4.0,76,6.0,39,570.0,12,76.1,Cash on delivery,Electronics
+IN00819,Vikram Ghosh,Male,39.0,Lucknow,Uttar Pradesh,Tier 2,11.6,48,22.0,18,150.0,51,38.1,UPI,Beauty & Personal Care
+IN00820,Sanjay Agarwal,Male,62.0,Bengaluru,Karnataka,Tier 1,20.0,14,25.0,5,3880.0,68,48.1,UPI,Electronics
+IN00821,Harsh Pillai,Male,38.0,Indore,Madhya Pradesh,Tier 2,20.1,87,29.0,36,2520.0,34,49.0,Credit/Debit card,Electronics
+IN00822,Komal Menon,Female,37.0,Gwalior,Madhya Pradesh,Tier 3,7.2,66,17.0,14,,33,65.5,UPI,Grocery
+IN00823,Komal Pillai,Female,39.0,Pune,Maharashtra,Tier 1,18.8,12,34.0,11,4480.0,68,71.8,Credit/Debit card,Fashion
+IN00824,Arjun Joshi,Male,37.0,Chennai,Tamil Nadu,Tier 1,12.4,57,35.0,6,1310.0,44,71.6,Wallet,Home & Kitchen
+IN00825,Gaurav Yadav,Male,66.0,Bengaluru,Karnataka,Tier 1,12.6,38,39.0,18,1660.0,43,24.6,UPI,Grocery
+IN00826,Ananya Menon,Female,38.0,Jaipur,Rajasthan,Tier 2,21.0,65,45.0,28,2820.0,19,37.7,Credit/Debit card,Grocery
+IN00827,Nikhil Ghosh,Male,33.0,Kochi,Kerala,Tier 2,10.9,47,39.0,12,1760.0,32,87.7,UPI,Electronics
+IN00828,Ananya Patel,Female,44.0,Delhi,Delhi,Tier 1,26.9,25,28.0,8,3920.0,15,60.8,Credit/Debit card,Electronics
+IN00829,Ankit Reddy,Male,60.0,Gwalior,Madhya Pradesh,Tier 3,4.4,15,38.0,8,1070.0,96,20.7,UPI,Fashion
+IN00830,Shreya Joshi,Female,48.0,Bengaluru,Karnataka,Tier 1,27.0,40,11.0,7,,65,36.1,UPI,Home & Kitchen
+IN00831,Sneha Shah,Female,35.0,Dehradun,Uttarakhand,Tier 3,6.5,49,31.0,18,1230.0,19,24.4,Wallet,Grocery
+IN00832,Ananya Pillai,Female,74.0,Mumbai,Maharashtra,Tier 1,3.5,40,30.0,14,1590.0,43,73.2,UPI,Electronics
+IN00833,Pooja Thakur,Female,18.0,Chennai,Tamil Nadu,Tier 1,3.8,81,20.0,35,380.0,27,75.1,UPI,Fashion
+IN00834,Pallavi Singh,Female,45.0,Kochi,Kerala,Tier 2,11.7,39,34.0,16,910.0,44,52.7,Cash on delivery,Fashion
+IN00835,Tanvi Mehta,Female,27.0,Udaipur,Rajasthan,Tier 3,9.3,67,32.0,11,1570.0,48,40.9,Credit/Debit card,Electronics
+IN00836,Ritu Pillai,Female,49.0,Hyderabad,Telangana,Tier 1,7.1,39,34.0,19,1100.0,40,,Credit/Debit card,Fashion
+IN00837,Rahul Joshi,Male,32.0,Kolkata,West Bengal,Tier 1,,62,30.0,9,890.0,17,49.4,Cash on delivery,Grocery
+IN00838,Mohit Singh,Male,,Surat,Gujarat,Tier 2,5.8,18,75.0,4,1190.0,244,43.7,Cash on delivery,Beauty & Personal Care
+IN00839,Arjun Banerjee,Male,26.0,Siliguri,West Bengal,Tier 3,5.8,73,10.0,28,680.0,1,75.9,UPI,Fashion
+IN00840,Swati Desai,Female,38.0,Bengaluru,Karnataka,Tier 1,6.9,69,25.0,29,610.0,21,62.2,UPI,Grocery
+IN00841,Aditi Mishra,Female,37.0,Delhi,Delhi,Tier 1,30.2,72,37.0,31,2560.0,20,71.2,UPI,Fashion
+IN00842,Gaurav Reddy,Male,50.0,Surat,Gujarat,Tier 2,6.8,45,38.0,26,1240.0,45,53.8,Credit/Debit card,Beauty & Personal Care
+IN00843,Gaurav Mehta,Male,29.0,Udaipur,Rajasthan,Tier 3,,66,27.0,29,270.0,34,65.6,UPI,Beauty & Personal Care
+IN00844,Sandeep Tiwari,Male,18.0,Lucknow,Uttar Pradesh,Tier 2,6.4,61,32.0,30,750.0,32,71.6,UPI,Beauty & Personal Care
+IN00845,Nikhil Chauhan,Male,38.0,Guwahati,Assam,Tier 2,17.0,94,50.0,30,3030.0,19,,Wallet,Fashion
+IN00846,Vikram Chauhan,Male,49.0,Pune,Maharashtra,Tier 1,7.0,22,67.0,6,780.0,245,18.6,UPI,Grocery
+IN00847,Harsh Reddy,Male,18.0,Chennai,Tamil Nadu,Tier 1,,76,15.0,33,840.0,22,91.6,UPI,Fashion
+IN00848,Pooja Mehta,Female,39.0,Chennai,Tamil Nadu,Tier 1,7.9,50,8.0,26,1790.0,35,33.4,UPI,Grocery
+IN00849,Karan Desai,Male,52.0,Lucknow,Uttar Pradesh,Tier 2,14.4,78,43.0,27,2350.0,24,69.2,UPI,Beauty & Personal Care
+IN00850,Amit Shah,Male,71.0,Mysuru,Karnataka,Tier 3,7.9,9,25.0,3,,123,52.5,Cash on delivery,Fashion
+IN00851,Gaurav Chauhan,Male,19.0,Sagar,Madhya Pradesh,Tier 3,19.9,88,69.0,37,2230.0,10,68.1,Credit/Debit card,Home & Kitchen
+IN00852,Pallavi Chatterjee,Female,37.0,Hyderabad,Telangana,Tier 1,19.5,24,30.0,6,4560.0,66,40.1,Credit/Debit card,Electronics
+IN00853,Sunita Kulkarni,Female,63.0,Udaipur,Rajasthan,Tier 3,5.2,17,42.0,3,390.0,132,17.2,UPI,Electronics
+IN00854,Isha Pillai,Female,59.0,Bhopal,Madhya Pradesh,Tier 2,2.2,31,18.0,4,860.0,150,37.6,Wallet,Home & Kitchen
+IN00855,Meera Verma,Female,50.0,Ujjain,Madhya Pradesh,Tier 3,22.7,38,17.0,7,3980.0,66,53.3,UPI,Grocery
+IN00856,Rajesh Joshi,Male,30.0,Pune,Maharashtra,Tier 1,3.4,63,28.0,45,1160.0,15,77.6,Credit/Debit card,Grocery
+IN00857,Siddharth Pillai,Male,37.0,Delhi,Delhi,Tier 1,10.3,56,,23,1360.0,28,45.8,Wallet,Home & Kitchen
+IN00858,Neha Chatterjee,Female,57.0,Siliguri,West Bengal,Tier 3,2.1,25,20.0,2,480.0,220,45.5,UPI,Beauty & Personal Care
+IN00859,Siddharth Malhotra,Male,25.0,Siliguri,West Bengal,Tier 3,4.5,68,32.0,31,570.0,12,72.2,UPI,Fashion
+IN00860,Isha Jain,Female,33.0,Chandigarh,Chandigarh,Tier 2,4.5,74,5.0,34,540.0,15,92.7,UPI,Grocery
+IN00861,Gaurav Desai,Male,57.0,Jaipur,Rajasthan,Tier 2,6.2,43,11.0,21,1820.0,31,36.1,Wallet,Grocery
+IN00862,Meera Kapoor,Female,47.0,Lucknow,Uttar Pradesh,Tier 2,8.7,56,31.0,15,1040.0,25,28.1,Cash on delivery,Fashion
+IN00863,Suresh Das,Male,51.0,Indore,Madhya Pradesh,Tier 2,11.7,27,48.0,21,1670.0,48,35.3,Credit/Debit card,Fashion
+IN00864,Nikhil Yadav,Male,45.0,Lucknow,Uttar Pradesh,Tier 2,9.5,55,22.0,15,1070.0,14,29.3,Credit/Debit card,Beauty & Personal Care
+IN00865,Amit Agarwal,Male,22.0,Bengaluru,Karnataka,Tier 1,,82,55.0,27,3750.0,1,57.2,Credit/Debit card,Beauty & Personal Care
+IN00866,Vikram Thakur,Male,51.0,Sagar,Madhya Pradesh,Tier 3,4.8,20,22.0,4,730.0,107,36.8,UPI,Grocery
+IN00867,Riya Chatterjee,Female,73.0,Patna,Bihar,Tier 2,1.5,22,37.0,6,1510.0,77,9.4,UPI,Grocery
+IN00868,Mohit Yadav,Male,37.0,Indore,Madhya Pradesh,Tier 2,12.1,23,30.0,7,1380.0,20,42.4,Credit/Debit card,Grocery
+IN00869,Komal Reddy,Female,34.0,Kolkata,West Bengal,Tier 1,15.6,79,30.0,21,2600.0,10,73.8,UPI,Beauty & Personal Care
+IN00870,Pallavi Nair,Female,62.0,Udaipur,Rajasthan,Tier 3,14.7,29,9.0,9,3650.0,105,56.8,Credit/Debit card,Beauty & Personal Care
+IN00871,Gaurav Menon,Male,47.0,Chandigarh,Chandigarh,Tier 2,,48,37.0,23,1380.0,30,57.8,UPI,Beauty & Personal Care
+IN00872,Rohan Sharma,Male,38.0,Patna,Bihar,Tier 2,13.4,92,57.0,33,2040.0,18,61.3,Credit/Debit card,Grocery
+IN00873,Sanjay Pillai,Male,61.0,Mysuru,Karnataka,Tier 3,9.1,26,37.0,2,830.0,263,15.9,UPI,Home & Kitchen
+IN00874,Komal Verma,Female,21.0,Chandigarh,Chandigarh,Tier 2,3.7,65,26.0,20,430.0,23,96.6,Wallet,Grocery
+IN00875,Nikhil Kulkarni,Male,53.0,Udaipur,Rajasthan,Tier 3,9.0,59,,21,1530.0,59,52.2,UPI,Electronics
+IN00876,Tanvi Desai,Female,46.0,Gwalior,Madhya Pradesh,Tier 3,6.7,27,44.0,4,,179,47.6,Credit/Debit card,Home & Kitchen
+IN00877,Harsh Rao,Male,28.0,Mumbai,Maharashtra,Tier 1,5.8,82,29.0,27,690.0,10,,Cash on delivery,Fashion
+IN00878,Vikram Menon,Male,43.0,Kolkata,West Bengal,Tier 1,21.5,30,32.0,11,4780.0,40,34.8,UPI,Grocery
+IN00879,Arjun Singh,Male,42.0,Mysuru,Karnataka,Tier 3,3.2,57,22.0,15,1390.0,51,85.5,Credit/Debit card,Home & Kitchen
+IN00880,Vivaan Mishra,Male,59.0,Nagpur,Maharashtra,Tier 2,6.2,36,32.0,9,1040.0,10,10.2,Credit/Debit card,Home & Kitchen
+IN00881,Vivaan Thakur,Male,31.0,Dehradun,Uttarakhand,Tier 3,5.4,85,18.0,37,690.0,26,67.8,Wallet,Grocery
+IN00882,Pooja Chatterjee,Female,50.0,Jabalpur,Madhya Pradesh,Tier 3,10.9,37,1.0,12,1610.0,55,58.4,UPI,Beauty & Personal Care
+IN00883,Manoj Singh,Male,39.0,Bengaluru,Karnataka,Tier 1,4.2,17,,5,850.0,185,17.9,UPI,Home & Kitchen
+IN00884,Rajesh Joshi,Male,23.0,Mumbai,Maharashtra,Tier 1,2.1,73,9.0,32,490.0,39,,UPI,Beauty & Personal Care
+IN00885,Kavya Agarwal,Female,51.0,Mumbai,Maharashtra,Tier 1,26.0,14,36.0,1,3690.0,49,,Credit/Debit card,Fashion
+IN00886,Pallavi Saxena,Female,23.0,Patna,Bihar,Tier 2,2.0,74,28.0,4,620.0,17,99.8,UPI,Fashion
+IN00887,Meera Menon,Female,26.0,Udaipur,Rajasthan,Tier 3,5.8,83,9.0,34,250.0,5,80.9,UPI,Fashion
+IN00888,Amit Menon,,44.0,Pune,Maharashtra,Tier 1,28.4,78,37.0,23,2050.0,4,54.7,UPI,Beauty & Personal Care
+IN00889,Siddharth Bora,Male,42.0,Kolkata,West Bengal,Tier 1,19.5,64,40.0,31,1930.0,11,57.3,Credit/Debit card,Electronics
+IN00890,Ankit Kalita,Male,43.0,Gwalior,Madhya Pradesh,Tier 3,,42,16.0,6,1910.0,55,50.1,UPI,Fashion
+IN00891,Priya Pillai,Female,,Indore,Madhya Pradesh,Tier 2,3.5,71,18.0,42,840.0,5,74.8,UPI,Fashion
+IN00892,Ritu Pillai,Female,59.0,Delhi,Delhi,Tier 1,3.3,33,35.0,2,620.0,156,44.6,Cash on delivery,Grocery
+IN00893,Arjun Desai,Male,22.0,Mumbai,Maharashtra,Tier 1,28.1,34,36.0,6,3360.0,5,44.5,Credit/Debit card,Electronics
+IN00894,Riya Menon,Female,35.0,Delhi,Delhi,Tier 1,,73,52.0,30,2870.0,6,92.3,Credit/Debit card,Fashion
+IN00895,Pallavi Chatterjee,Female,44.0,Delhi,Delhi,Tier 1,8.2,52,41.0,20,1100.0,17,64.7,Credit/Debit card,Beauty & Personal Care
+IN00896,Tanvi Singh,Female,52.0,Lucknow,Uttar Pradesh,Tier 2,7.6,32,41.0,6,510.0,186,23.5,Cash on delivery,Grocery
+IN00897,Riya Banerjee,Female,47.0,Chennai,Tamil Nadu,Tier 1,20.4,23,37.0,8,,58,48.3,Credit/Debit card,Grocery
+IN00898,Shreya Saxena,Female,44.0,Chandigarh,Chandigarh,Tier 2,29.3,34,7.0,8,4160.0,60,38.0,Wallet,Electronics
+IN00899,Rajesh Bora,Male,40.0,Delhi,Delhi,Tier 1,16.4,19,14.0,9,4590.0,57,38.2,Credit/Debit card,Fashion
+IN00900,Sunita Reddy,Female,26.0,Nagpur,Maharashtra,Tier 2,5.5,70,20.0,18,500.0,26,86.6,UPI,Fashion
+IN00901,Nisha Mishra,Female,32.0,Siliguri,West Bengal,Tier 3,6.4,90,26.0,39,640.0,17,90.1,Wallet,Fashion
+IN00902,Amit Agarwal,Male,57.0,Guwahati,Assam,Tier 2,17.8,28,54.0,9,3560.0,98,60.7,Credit/Debit card,Electronics
+IN00903,Mohit Menon,Male,46.0,Jaipur,Rajasthan,Tier 2,22.1,85,41.0,30,2220.0,24,36.0,UPI,Fashion
+IN00904,Mohit Desai,Male,23.0,Kochi,Kerala,Tier 2,2.7,87,14.0,13,360.0,27,71.1,Credit/Debit card,Grocery
+IN00905,Karan Verma,Male,39.0,Gwalior,Madhya Pradesh,Tier 3,3.3,26,24.0,4,1280.0,97,32.1,UPI,Beauty & Personal Care
+IN00906,Abhishek Chauhan,Male,42.0,Sagar,Madhya Pradesh,Tier 3,9.8,28,40.0,7,660.0,1,62.9,UPI,Grocery
+IN00907,Deepak Sharma,Male,18.0,Delhi,Delhi,Tier 1,2.5,84,14.0,36,530.0,13,80.6,Cash on delivery,Fashion
+IN00908,Gaurav Chatterjee,Male,46.0,Mumbai,Maharashtra,Tier 1,17.5,84,60.0,50,2460.0,18,69.5,UPI,Fashion
+IN00909,Siddharth Reddy,Male,,Jabalpur,Madhya Pradesh,Tier 3,27.5,29,17.0,7,4650.0,92,58.1,Credit/Debit card,Electronics
+IN00910,Mohit Pandey,Male,45.0,Guwahati,Assam,Tier 2,32.4,25,37.0,6,2020.0,72,47.2,Cash on delivery,Electronics
+IN00911,Pooja Kalita,Female,28.0,Dehradun,Uttarakhand,Tier 3,12.7,50,32.0,16,1470.0,34,47.0,Wallet,Home & Kitchen
+IN00912,Divya Pandey,Female,57.0,Patna,Bihar,Tier 2,3.5,14,20.0,4,1020.0,127,9.2,Credit/Debit card,Fashion
+IN00913,Priya Kalita,Female,50.0,Mysuru,Karnataka,Tier 3,4.0,13,18.0,1,840.0,170,20.9,UPI,Grocery
+IN00914,Nisha Kapoor,Female,58.0,Gwalior,Madhya Pradesh,Tier 3,5.7,18,50.0,3,650.0,63,16.9,UPI,Fashion
+IN00915,Ritu Pandey,Female,,Sagar,Madhya Pradesh,Tier 3,6.7,21,35.0,5,670.0,151,,UPI,Grocery
+IN00916,Rajesh Gupta,Male,47.0,Lucknow,Uttar Pradesh,Tier 2,7.9,7,12.0,7,1140.0,149,31.4,UPI,Home & Kitchen
+IN00917,Harsh Kulkarni,Male,39.0,Hyderabad,Telangana,Tier 1,16.9,66,37.0,36,2370.0,17,36.8,Credit/Debit card,Fashion
+IN00918,Aditi Kalita,Female,46.0,Chennai,Tamil Nadu,Tier 1,20.5,73,39.0,38,2770.0,17,60.4,UPI,Electronics
+IN00919,Pallavi Mehta,Female,44.0,Indore,Madhya Pradesh,Tier 2,26.5,30,22.0,7,3560.0,61,65.8,Credit/Debit card,Grocery
+IN00920,Anjali Shah,Female,40.0,Patna,Bihar,Tier 2,7.6,53,39.0,11,,52,53.1,Credit/Debit card,Grocery
+IN00921,Deepak Mehta,Male,40.0,Kochi,Kerala,Tier 2,12.2,75,39.0,24,1980.0,12,55.5,Credit/Debit card,Home & Kitchen
+IN00922,Riya Menon,Female,59.0,Jaipur,Rajasthan,Tier 2,7.6,25,39.0,5,830.0,151,36.9,UPI,Fashion
+IN00923,Lakshmi Patel,Female,43.0,Chennai,Tamil Nadu,Tier 1,7.4,47,31.0,8,1250.0,59,36.6,UPI,Grocery
+IN00924,Anjali Shah,Female,37.0,Jaipur,Rajasthan,Tier 2,8.9,56,35.0,16,1490.0,22,61.0,UPI,Grocery
+IN00925,Arjun Iyer,Male,34.0,Guwahati,Assam,Tier 2,19.6,77,40.0,31,1860.0,14,30.7,Credit/Debit card,Home & Kitchen
+IN00926,Pooja Bora,Female,30.0,Chandigarh,Chandigarh,Tier 2,23.8,24,31.0,11,3570.0,96,34.2,Credit/Debit card,Fashion
+IN00927,Manoj Mehta,,44.0,Hyderabad,Telangana,Tier 1,26.6,68,63.0,38,2510.0,3,67.8,Credit/Debit card,Grocery
+IN00928,Arjun Agarwal,Male,48.0,Ahmedabad,Gujarat,Tier 1,5.5,31,21.0,6,150.0,140,22.6,Wallet,Grocery
+IN00929,Harsh Nair,Male,44.0,Chandigarh,Chandigarh,Tier 2,,52,24.0,13,1140.0,61,16.2,Credit/Debit card,Home & Kitchen
+IN00930,Nikhil Desai,Male,41.0,Dehradun,Uttarakhand,Tier 3,8.6,44,29.0,19,1210.0,2,64.0,UPI,Electronics
+IN00931,Aditi Kalita,Female,37.0,Bengaluru,Karnataka,Tier 1,13.0,20,22.0,6,3020.0,70,,UPI,Electronics
+IN00932,Pooja Tiwari,Female,38.0,Surat,Gujarat,Tier 2,8.0,87,21.0,30,590.0,26,89.1,UPI,Home & Kitchen
+IN00933,Abhishek Kapoor,Male,22.0,Pune,Maharashtra,Tier 1,5.6,58,29.0,16,650.0,16,64.1,Credit/Debit card,Beauty & Personal Care
+IN00934,Rekha Pandey,Female,49.0,Indore,Madhya Pradesh,Tier 2,11.6,29,20.0,9,1260.0,29,49.6,Cash on delivery,Grocery
+IN00935,Nikhil Menon,Male,48.0,Chennai,Tamil Nadu,Tier 1,7.0,51,43.0,11,1810.0,29,41.2,UPI,Grocery
+IN00936,Aarav Nair,Male,,Mumbai,Maharashtra,Tier 1,13.9,40,37.0,8,5510.0,50,48.1,Credit/Debit card,Home & Kitchen
+IN00937,Sneha Pandey,Female,49.0,Kolkata,West Bengal,Tier 1,7.5,26,65.0,2,1360.0,120,16.0,Cash on delivery,Fashion
+IN00938,Kavya Kulkarni,Female,39.0,Hyderabad,Telangana,Tier 1,20.1,74,57.0,29,2700.0,1,56.3,UPI,Fashion
+IN00939,Karan Malhotra,Male,48.0,Chennai,Tamil Nadu,Tier 1,4.2,16,31.0,4,800.0,83,32.7,Wallet,Beauty & Personal Care
+IN00940,Ankit Sharma,Male,38.0,Lucknow,Uttar Pradesh,Tier 2,16.3,73,72.0,42,2570.0,13,30.5,Credit/Debit card,Home & Kitchen
+IN00941,Rajesh Chauhan,Male,28.0,Kochi,Kerala,Tier 2,24.6,35,32.0,9,3550.0,27,89.1,Credit/Debit card,Electronics
+IN00942,Neha Agarwal,,64.0,Delhi,Delhi,Tier 1,1.9,15,50.0,6,840.0,172,14.6,UPI,Home & Kitchen
+IN00943,Rahul Yadav,Male,50.0,Bengaluru,Karnataka,Tier 1,15.7,87,80.0,28,2000.0,15,74.6,Cash on delivery,Electronics
+IN00944,Pallavi Nair,Female,,Ujjain,Madhya Pradesh,Tier 3,4.2,92,41.0,33,750.0,11,78.1,UPI,Beauty & Personal Care
+IN00945,Rekha Yadav,Female,26.0,Gwalior,Madhya Pradesh,Tier 3,3.3,82,6.0,37,,14,64.6,Wallet,Grocery
+IN00946,Siddharth Pillai,Male,40.0,Pune,Maharashtra,Tier 1,22.2,19,25.0,13,3270.0,59,22.1,UPI,Grocery
+IN00947,Mohit Iyer,Male,43.0,Delhi,Delhi,Tier 1,9.3,40,46.0,3,1310.0,52,45.8,UPI,Home & Kitchen
+IN00948,Sunita Kulkarni,Female,50.0,Mumbai,Maharashtra,Tier 1,4.2,23,56.0,2,1020.0,151,46.2,Cash on delivery,Grocery
+IN00949,Siddharth Saxena,Male,67.0,Surat,Gujarat,Tier 2,3.9,20,26.0,6,870.0,103,28.3,Credit/Debit card,Home & Kitchen
+IN00950,Swati Ghosh,Female,26.0,Indore,Madhya Pradesh,Tier 2,4.1,88,23.0,32,800.0,6,66.2,UPI,Fashion
+IN00951,Shreya Verma,,24.0,Kochi,Kerala,Tier 2,2.9,82,10.0,34,840.0,38,71.2,UPI,Fashion
+IN00952,Rekha Bora,Female,,Lucknow,Uttar Pradesh,Tier 2,18.5,31,17.0,7,3620.0,89,29.7,UPI,Electronics
+IN00953,Aarav Gupta,Male,63.0,Delhi,Delhi,Tier 1,24.3,19,,11,2000.0,127,46.3,Wallet,Electronics
+IN00954,Komal Ghosh,Female,18.0,Lucknow,Uttar Pradesh,Tier 2,16.2,87,34.0,34,2740.0,22,83.5,UPI,Fashion
+IN00955,Rajesh Chauhan,Male,71.0,Patna,Bihar,Tier 2,4.2,25,41.0,5,940.0,168,25.1,UPI,Fashion
+IN00956,Isha Rao,Female,46.0,Lucknow,Uttar Pradesh,Tier 2,3.6,26,48.0,5,640.0,152,36.9,Cash on delivery,Home & Kitchen
+IN00957,Riya Banerjee,Female,27.0,Siliguri,West Bengal,Tier 3,10.1,44,45.0,4,870.0,54,47.1,UPI,Grocery
+IN00958,Neha Kalita,Female,26.0,Sagar,Madhya Pradesh,Tier 3,6.6,78,29.0,28,940.0,17,,UPI,Fashion
+IN00959,Sneha Patel,Female,26.0,Udaipur,Rajasthan,Tier 3,3.6,75,12.0,19,760.0,24,74.1,Credit/Debit card,Beauty & Personal Care
+IN00960,Sandeep Desai,Male,27.0,Bengaluru,Karnataka,Tier 1,7.0,82,14.0,34,640.0,13,70.2,Wallet,Beauty & Personal Care
+IN00961,Pranav Mishra,Male,18.0,Sagar,Madhya Pradesh,Tier 3,4.3,75,15.0,40,850.0,7,78.6,Wallet,Electronics
+IN00962,Deepak Kalita,Male,37.0,Jaipur,Rajasthan,Tier 2,3.1,87,19.0,37,860.0,16,64.2,Cash on delivery,Fashion
+IN00963,Divya Menon,Female,27.0,Kolkata,West Bengal,Tier 1,16.9,79,49.0,32,2030.0,25,,UPI,Electronics
+IN00964,Sanjay Iyer,Male,29.0,Mysuru,Karnataka,Tier 3,16.3,76,32.0,37,2140.0,25,67.4,UPI,Electronics
+IN00965,Harsh Reddy,Male,24.0,Dehradun,Uttarakhand,Tier 3,4.6,30,42.0,3,440.0,144,28.9,UPI,Home & Kitchen
+IN00966,Priya Rao,Female,25.0,Ujjain,Madhya Pradesh,Tier 3,4.2,62,23.0,18,780.0,29,83.1,Wallet,Grocery
+IN00967,Suresh Shah,Male,63.0,Guwahati,Assam,Tier 2,6.7,12,45.0,2,820.0,68,5.1,Credit/Debit card,Fashion
+IN00968,Rajesh Verma,Male,35.0,Chennai,Tamil Nadu,Tier 1,22.1,81,37.0,32,1930.0,4,62.7,UPI,Electronics
+IN00969,Karan Desai,Male,59.0,Pune,Maharashtra,Tier 1,8.0,55,23.0,24,880.0,49,73.4,Credit/Debit card,Home & Kitchen
+IN00970,Sanjay Mishra,Male,54.0,Bengaluru,Karnataka,Tier 1,24.6,15,15.0,12,2990.0,72,46.0,Credit/Debit card,Beauty & Personal Care
+IN00971,Deepak Kalita,,42.0,Bengaluru,Karnataka,Tier 1,28.7,35,35.0,8,4390.0,51,69.3,UPI,Electronics
+IN00972,Rahul Kalita,Male,36.0,Bhopal,Madhya Pradesh,Tier 2,10.2,73,39.0,34,3050.0,9,81.9,Credit/Debit card,Home & Kitchen
+IN00973,Nikhil Verma,Male,26.0,Delhi,Delhi,Tier 1,21.9,70,33.0,34,2720.0,16,87.2,Credit/Debit card,Home & Kitchen
+IN00974,Rajesh Das,Male,50.0,Mysuru,Karnataka,Tier 3,8.9,23,20.0,8,1110.0,196,14.1,Cash on delivery,Beauty & Personal Care
+IN00975,Ananya Malhotra,Female,29.0,Bhopal,Madhya Pradesh,Tier 2,1.5,73,24.0,21,360.0,13,91.6,Cash on delivery,Fashion
+IN00976,Suresh Rao,Male,40.0,Siliguri,West Bengal,Tier 3,11.1,66,17.0,25,1350.0,15,100.0,Wallet,Grocery
+IN00977,Deepak Kalita,Male,18.0,Delhi,Delhi,Tier 1,4.8,98,20.0,25,480.0,9,77.0,UPI,Beauty & Personal Care
+IN00978,Swati Tiwari,Female,23.0,Dehradun,Uttarakhand,Tier 3,4.7,72,8.0,20,600.0,20,75.6,Credit/Debit card,Fashion
+IN00979,Nikhil Verma,Male,22.0,Ujjain,Madhya Pradesh,Tier 3,6.5,76,27.0,30,810.0,23,82.5,UPI,Electronics
+IN00980,Amit Chauhan,Male,59.0,Ujjain,Madhya Pradesh,Tier 3,24.7,11,62.0,7,3100.0,40,30.0,UPI,Electronics
+IN00981,Karan Joshi,Male,44.0,Siliguri,West Bengal,Tier 3,2.0,18,48.0,5,590.0,110,45.9,Cash on delivery,Fashion
+IN00982,Amit Singh,Male,40.0,Kolkata,West Bengal,Tier 1,9.4,50,43.0,15,900.0,48,72.0,Cash on delivery,Home & Kitchen
+IN00983,Pooja Tiwari,Female,38.0,Guwahati,Assam,Tier 2,11.0,56,35.0,11,750.0,43,39.8,UPI,Home & Kitchen
+IN00984,Suresh Tiwari,Male,35.0,Lucknow,Uttar Pradesh,Tier 2,1.6,69,20.0,32,650.0,34,53.7,UPI,Electronics
+IN00985,Vikram Mehta,Male,30.0,Gwalior,Madhya Pradesh,Tier 3,16.3,72,33.0,31,2700.0,32,79.0,Credit/Debit card,Grocery
+IN00986,Karan Tiwari,Male,47.0,Mumbai,Maharashtra,Tier 1,2.9,20,33.0,5,570.0,168,31.3,Cash on delivery,Grocery
+IN00987,Aditi Verma,Female,22.0,Delhi,Delhi,Tier 1,7.1,81,,21,880.0,22,84.4,UPI,Fashion
+IN00988,Kavya Saxena,Female,31.0,Gwalior,Madhya Pradesh,Tier 3,19.7,74,46.0,39,3020.0,24,,UPI,Fashion
+IN00989,Rohan Menon,Male,31.0,Sagar,Madhya Pradesh,Tier 3,6.5,71,14.0,35,910.0,24,100.0,UPI,Electronics
+IN00990,Tanvi Nair,Female,36.0,Kochi,Kerala,Tier 2,9.5,34,32.0,14,1520.0,10,61.3,Cash on delivery,Home & Kitchen
+IN00991,Aditi Thakur,Female,56.0,Pune,Maharashtra,Tier 1,9.9,53,20.0,19,1540.0,4,62.1,UPI,Home & Kitchen
+IN00992,Harsh Desai,Male,55.0,Bhopal,Madhya Pradesh,Tier 2,7.4,49,33.0,12,1170.0,51,33.3,Credit/Debit card,Grocery
+IN00993,Vivaan Mehta,Male,45.0,Lucknow,Uttar Pradesh,Tier 2,7.4,64,15.0,16,1400.0,32,27.3,Wallet,Fashion
+IN00994,Siddharth Joshi,Male,40.0,Hyderabad,Telangana,Tier 1,30.1,34,46.0,18,2940.0,84,53.6,Credit/Debit card,Beauty & Personal Care
+IN00995,Rahul Pandey,Male,49.0,Dehradun,Uttarakhand,Tier 3,3.9,28,45.0,3,1060.0,129,4.8,Credit/Debit card,Fashion
+IN00996,Amit Patel,Male,22.0,Kochi,Kerala,Tier 2,7.3,76,6.0,34,890.0,25,76.5,Wallet,Beauty & Personal Care
+IN00997,Harsh Singh,Male,40.0,Mumbai,Maharashtra,Tier 1,12.1,44,,15,1370.0,16,48.9,UPI,Home & Kitchen
+IN00998,Gaurav Das,Male,58.0,Bhopal,Madhya Pradesh,Tier 2,12.9,70,,38,3810.0,21,65.0,UPI,Home & Kitchen
+IN00999,Arjun Malhotra,Male,66.0,Sagar,Madhya Pradesh,Tier 3,7.0,29,54.0,4,640.0,148,35.3,UPI,Home & Kitchen
+IN01000,Rohan Kulkarni,,56.0,Chennai,Tamil Nadu,Tier 1,24.0,24,39.0,7,4650.0,26,57.4,Credit/Debit card,Home & Kitchen
