@@ -12,6 +12,7 @@ Group Indian retail customers by behaviour and value using **K-Means**, **DBSCAN
 | Author | Pritam Rabha |
 | Programme | MCA, 3rd Semester |
 | Course | Python Programming |
+| Project guide | Dr. Pangambam Sendash Singh |
 | Institution | Dr. Hari Singh Gour Vishwavidyalaya, Sagar, Madhya Pradesh |
 
 Copyright © 2026 Pritam Rabha. All rights reserved.
