@@ -12,9 +12,17 @@
     font-variant-numeric: tabular-nums;
 }
 
-/* chrome we do not need */
-#MainMenu, footer, [data-testid="stToolbar"], [data-testid="stDecoration"] { display: none !important; }
+/* chrome we do not need (the toolbar itself must stay: it holds the button that reopens the sidebar) */
+footer, [data-testid="stDecoration"], [data-testid="stAppDeployButton"], .stAppDeployButton { display: none !important; }
 header[data-testid="stHeader"] { background: transparent; }
+
+/* make the "open settings" control impossible to miss when the sidebar is collapsed */
+[data-testid="stExpandSidebarButton"], [data-testid="stSidebarCollapsedControl"] button, [data-testid="stSidebarCollapsedControl"] {
+    visibility: visible !important; opacity: 1 !important;
+}
+[data-testid="stExpandSidebarButton"], [data-testid="stSidebarCollapsedControl"] button {
+    background: var(--panel); border: 1px solid var(--indigo); border-radius: 6px; color: var(--indigo);
+}
 
 /* layout */
 .block-container { max-width: 1400px; padding: 1.6rem 2.2rem 4rem; }
