@@ -4,6 +4,10 @@ Group Indian retail customers by behaviour and value using **K-Means**, **DBSCAN
 
 **Technology stack:** Python, Pandas, NumPy, Scikit-learn, SciPy, Plotly, Streamlit.
 
+## Live demo
+
+**Try the application:** [Customer Segmentation Dashboard](https://customer-segmentation-a.streamlit.app/)
+
 ## Author and academic details
 
 | Field | Details |
@@ -19,17 +23,17 @@ Copyright © 2026 Pritam Rabha. All rights reserved.
 
 ## Contents
 
-1. [Assignment requirements](#assignment-requirements-and-implementation)
-2. [Quick start](#quick-start)
-3. [Dashboard tour](#dashboard-tour)
-4. [Method](#method)
-5. [Results on the bundled sample](#results-on-the-bundled-sample)
-6. [Project structure](#project-structure)
-7. [Tests](#tests)
-8. [Limitations](#limitations)
-9. [Copyright](#copyright)
-10. [Licence](#licence)
-
+1. [Live demo](#live-demo)
+3. [Assignment requirements](#assignment-requirements-and-implementation)
+3. [Quick start](#quick-start)
+4. [Dashboard tour](#dashboard-tour)
+5. [Method](#method)
+6. [Results on the bundled sample](#results-on-the-bundled-sample)
+7. [Project structure](#project-structure)
+8. [Tests](#tests)
+9. [Limitations](#limitations)
+10. [Copyright](#copyright)
+11. [Licence](#licence)
 ## Assignment requirements and implementation
 
 | Requirement | Implementation |
